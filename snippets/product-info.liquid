@@ -354,6 +354,11 @@ Supported variables
             -%}
 
           {%- when 'buy_buttons' -%}
+            {%- comment -%}Free gift promo: main product page only, so it stays out of quick buy, cards and cross-sell.{%- endcomment -%}
+            {%- if context == 'main_product' -%}
+              {%- render 'free-gift-promo', variant: 'pdp' -%}
+            {%- endif -%}
+
             {%- render 'buy-buttons',
                 product: product,
                 form_id: product_form_id,

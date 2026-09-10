@@ -11,6 +11,22 @@
   "type": "header",
   "name": "Header group",
   "sections": {
+    "free-gift-bar": {
+      "type": "countdown-condensed",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-4",
+        "heading": "Free 5-pack of C2 Clear Sky Extenders with every order — ends in",
+        "layout": "split",
+        "expiration_date": "",
+        "expiration_behavior": "hide",
+        "show_inline_timer": true,
+        "button_text": "Shop now",
+        "button_url": "shopify://collections/all",
+        "button_style": "solid",
+        "connect_button_with_heading": false
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "disabled": true,
@@ -84,11 +100,12 @@
         "show_country_name": false,
         "show_country_flag": true,
         "show_locale_selector": true,
-        "transparent_header_text_color": "#ffffff"
+        "transparent_header_text_color": "#0e1b4d"
       }
     }
   },
   "order": [
+    "free-gift-bar",
     "announcement-bar",
     "header"
   ]

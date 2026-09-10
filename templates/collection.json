@@ -648,7 +648,6 @@
     },
     "main": {
       "type": "main-collection",
-      "disabled": true,
       "settings": {
         "color_scheme": "",
         "products_per_page": 36,
@@ -669,13 +668,13 @@
   "order": [
     "text_with_fixed_background_xbNdaV",
     "banner",
+    "main",
     "hot_spots_qJeeCT",
     "products_with_image_XWHUGD",
     "text_with_fixed_background_CHJYnh",
     "multi_column_ycYHPB",
     "press_RPLHMA",
     "before_after_JkCB6f",
-    "dynamic_grid_FDAmrc",
-    "main"
+    "dynamic_grid_FDAmrc"
   ]
 }

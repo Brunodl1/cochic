@@ -1,0 +1,31 @@
+{%- comment -%}
+  Placement only. All content, colors and scheduling live in Theme settings > Free gift promo,
+  so the offer can be switched off or re-dated in one place. Markup lives in the shared snippet.
+
+  This is a real section rather than a "Custom Liquid" section on purpose: the `liquid` setting
+  type cannot access the global `settings` object, so the promo would render empty there.
+{%- endcomment -%}
+
+{%- render 'free-gift-promo', variant: 'strip' -%}
+
+{% schema %}
+{
+  "name": "Free gift strip",
+  "class": "shopify-section--free-gift-strip",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Text, image, link, colors and the end date are managed in Theme settings > Free gift promo. This section only controls where the promo appears."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Free gift strip"
+    }
+  ]
+}
+{% endschema %}
