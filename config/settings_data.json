@@ -59,6 +59,7 @@
     "social_pinterest": "https://ca.pinterest.com/cochic_style/",
     "social_instagram": "https://www.instagram.com/cochicstyle/",
     "favicon": "shopify://shop_images/icons_website_128_x_128_px.png",
+    "free_gift_link": "/collections/shirt-collar-extender-full-collection",
     "content_for_index": [],
     "blocks": {
       "14060646107696862457": {
@@ -76,6 +77,46 @@
         "disabled": true,
         "settings": {
           "position": "right"
+        }
+      },
+      "15173350190937318257": {
+        "type": "shopify://apps/autocart/blocks/autocart-progressive/aac12e90-e97d-4173-bb1b-0facfcf7d6e4",
+        "disabled": false,
+        "settings": {
+          "refresh_method": "page_reload",
+          "debug": false
+        }
+      },
+      "15165505441455205624": {
+        "type": "shopify://apps/autocart/blocks/autocart/aac12e90-e97d-4173-bb1b-0facfcf7d6e4",
+        "disabled": false,
+        "settings": {
+          "modal_version": "legacy",
+          "modal_design_id": "",
+          "custom_styles": "#ac-submit-button {\n\n}",
+          "custom_dialog_styles": "#ac-dialog {\n\n}",
+          "button_label": "Open Autocart",
+          "modal_title": "Autocart Picker",
+          "modal_subtitle": "Select which product you desire to receive",
+          "next_button_label": "Next",
+          "back_button_label": "Back",
+          "confirm_button_label": "Confirm",
+          "deny_button_label": "I don't want these gifts",
+          "close_button_label": "Close",
+          "variant_label": "Variants",
+          "variant_description": "Select the variant of the product.",
+          "variant_select_button": "Select",
+          "variant_select_placeholder": "No variant selected",
+          "corner_label": "Gifts",
+          "confirm_modal_title": "Products to add",
+          "confirm_modal_subtitle": "The following products are going to be added to your cart, accept or refuse.",
+          "loading_toast_title": "Updating cart...",
+          "update_toast_title": "Cart has been updated.",
+          "update_toast_description": "Your cart is out of date. Reload to reflect the changes.",
+          "manual_relaod": false,
+          "discount_codes_to_exclude": "",
+          "custom_settings": "",
+          "debug": false
         }
       }
     },
@@ -250,8 +291,7 @@
           "input_text_color": "#282828"
         }
       }
-    },
-    "free_gift_link": "/collections/shirt-collar-extender-full-collection"
+    }
   },
   "presets": {
     "Sand": {
