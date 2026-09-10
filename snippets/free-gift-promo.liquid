@@ -1,0 +1,179 @@
+{%- comment -%}
+----------------------------------------------------------------------------------------------------------------------
+FREE GIFT PROMO
+----------------------------------------------------------------------------------------------------------------------
+
+Renders the site-wide "free gift with every order" promo. This is a FRONTEND-ONLY announcement: it does not add
+anything to the cart. Copy is therefore intentionally mechanism-agnostic (never "added automatically at checkout").
+
+Everything is driven by the "Free gift promo" panel in theme settings, so the offer can be switched off, re-dated or
+swapped to a different gift product without touching code.
+
+Used in two places:
+  - snippets/product-info.liquid ("buy_buttons" case, main product only) with variant: 'pdp'
+  - sections/free-gift-strip.liquid (placed under the hero on the homepage) with variant: 'strip'
+
+********************************************
+Supported variables
+********************************************
+
+* variant: 'pdp' (compact row above Add to cart) or 'strip' (wide banner). Defaults to 'pdp'.
+{%- endcomment -%}
+
+{%- liquid
+  assign variant = variant | default: 'pdp'
+  assign show_promo = false
+
+  if settings.free_gift_enabled
+    assign show_promo = true
+
+    comment
+      Server-side safety net so the promo stops rendering after the end date even if a viewer never loads the
+      countdown JS. The countdown element below handles the exact moment client-side.
+    endcomment
+    if settings.free_gift_end_date != blank
+      assign now_timestamp = 'now' | date: '%s' | times: 1
+      assign end_timestamp = settings.free_gift_end_date | date: '%s' | times: 1
+
+      if end_timestamp <= now_timestamp
+        assign show_promo = false
+      endif
+    endif
+  endif
+-%}
+
+{%- if show_promo -%}
+  {{ 'free-gift-promo.css' | asset_url | stylesheet_tag }}
+
+  {%- liquid
+    assign gift_product = settings.free_gift_product
+
+    if settings.free_gift_image != blank
+      assign gift_image = settings.free_gift_image
+    else
+      assign gift_image = gift_product.featured_image
+    endif
+
+    if variant == 'strip'
+      assign thumb_width = 96
+    else
+      assign thumb_width = 56
+    endif
+
+    assign show_timer = false
+
+    if settings.free_gift_show_timer and settings.free_gift_end_date != blank
+      assign show_timer = true
+    endif
+
+    comment
+      Precomputed: a filter chain inside an image_tag argument would terminate the argument
+      list and apply to the tag's output instead of to the argument.
+    endcomment
+    assign thumb_sizes = thumb_width | append: 'px'
+    assign thumb_alt = gift_product.title | default: gift_image.alt | default: ''
+  -%}
+
+  {%- capture promo_body -%}
+    <div class="free-gift-promo__media">
+      {%- if gift_image != blank -%}
+        {{- gift_image | image_url: width: thumb_width | image_tag:
+              loading: 'lazy',
+              widths: '56,64,96,112,128,192,288',
+              sizes: thumb_sizes,
+              class: 'free-gift-promo__thumb',
+              alt: thumb_alt -}}
+      {%- else -%}
+        {%- render 'icon' with 'gift', class: 'free-gift-promo__icon' -%}
+      {%- endif -%}
+    </div>
+
+    <div class="free-gift-promo__body">
+      {%- if settings.free_gift_heading != blank -%}
+        <p class="free-gift-promo__heading subheading">{{ settings.free_gift_heading }}</p>
+      {%- endif -%}
+
+      {%- if settings.free_gift_text != blank -%}
+        <p class="free-gift-promo__text">
+          {{- settings.free_gift_text -}}
+          {%- if settings.free_gift_value_label != blank and gift_product != blank -%}
+            <span class="free-gift-promo__value">
+              {{- gift_product.price | money }} {{ settings.free_gift_value_label -}}
+            </span>
+          {%- endif -%}
+        </p>
+      {%- endif -%}
+
+      {%- if show_timer -%}
+        {%- liquid
+          assign accessibility_expiration_date = settings.free_gift_end_date | date: format: 'date_at_time'
+          assign accessibility_text = 'sections.countdown_timer.expires_accessibility_text' | t: expiration_date: accessibility_expiration_date
+        -%}
+
+        <countdown-timer
+          class="free-gift-promo__timer countdown-condensed__timer countdown-condensed__timer--inline"
+          role="timer"
+          expires-at="{{ settings.free_gift_end_date | date: '%FT%T%:z' | escape }}"
+          expiration-behavior="hide"
+          aria-label="{{ accessibility_text | escape }}"
+        >
+          <div class="countdown-condensed__timer-item" aria-hidden="true">
+            <countdown-timer-flip type="days" class="subheading bold">00</countdown-timer-flip>
+            <span class="countdown-condensed__unit subheading subheading-xs">{{ 'sections.countdown_timer.days' | t }}</span>
+            <span class="countdown-condensed__unit-short subheading subheading-xs">D</span>
+          </div>
+
+          <span class="subheading subheading-xs" aria-hidden="true">:</span>
+
+          <div class="countdown-condensed__timer-item" aria-hidden="true">
+            <countdown-timer-flip type="hours" class="subheading bold">00</countdown-timer-flip>
+            <span class="countdown-condensed__unit subheading subheading-xs">{{ 'sections.countdown_timer.hours' | t }}</span>
+            <span class="countdown-condensed__unit-short subheading subheading-xs">H</span>
+          </div>
+
+          <span class="subheading subheading-xs" aria-hidden="true">:</span>
+
+          <div class="countdown-condensed__timer-item" aria-hidden="true">
+            <countdown-timer-flip type="minutes" class="subheading bold">00</countdown-timer-flip>
+            <span class="countdown-condensed__unit subheading subheading-xs">{{ 'sections.countdown_timer.minutes' | t }}</span>
+            <span class="countdown-condensed__unit-short subheading subheading-xs">M</span>
+          </div>
+
+          <span class="subheading subheading-xs" aria-hidden="true">:</span>
+
+          <div class="countdown-condensed__timer-item" aria-hidden="true">
+            <countdown-timer-flip type="seconds" class="subheading bold">00</countdown-timer-flip>
+            <span class="countdown-condensed__unit subheading subheading-xs">{{ 'sections.countdown_timer.seconds' | t }}</span>
+            <span class="countdown-condensed__unit-short subheading subheading-xs">S</span>
+          </div>
+        </countdown-timer>
+      {%- endif -%}
+    </div>
+  {%- endcapture -%}
+
+  <div class="free-gift-promo free-gift-promo--{{ variant }} color-scheme color-scheme--{{ settings.free_gift_color_scheme.id }}">
+    {%- if variant == 'strip' -%}
+      <div class="free-gift-promo__inner container">
+        {{- promo_body -}}
+
+        {%- if settings.free_gift_button_text != blank -%}
+          {%- render 'button',
+              content: settings.free_gift_button_text,
+              href: settings.free_gift_link,
+              style: 'solid',
+              size: 'sm',
+              class: 'free-gift-promo__button'
+          -%}
+        {%- endif -%}
+      </div>
+    {%- elsif settings.free_gift_link != blank -%}
+      <a href="{{ settings.free_gift_link }}" class="free-gift-promo__inner free-gift-promo__inner--link">
+        {{- promo_body -}}
+      </a>
+    {%- else -%}
+      <div class="free-gift-promo__inner">
+        {{- promo_body -}}
+      </div>
+    {%- endif -%}
+  </div>
+{%- endif -%}

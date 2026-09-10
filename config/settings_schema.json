@@ -1348,5 +1348,97 @@
         "info": "t:theme_settings.favicon.image_info"
       }
     ]
+  },
+  {
+    "name": "Free gift promo",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Frontend announcement only \u2014 this does not add the gift to the cart. Keep the copy free of promises the backend can't keep (avoid \"added automatically at checkout\")."
+      },
+      {
+        "type": "checkbox",
+        "id": "free_gift_enabled",
+        "label": "Enable free gift promo",
+        "info": "Master switch for the homepage strip and the product page callout.",
+        "default": true
+      },
+      {
+        "type": "product",
+        "id": "free_gift_product",
+        "label": "Gift product",
+        "info": "Supplies the image and the value shown in the promo."
+      },
+      {
+        "type": "image_picker",
+        "id": "free_gift_image",
+        "label": "Image override",
+        "info": "Optional. Use if the product photo doesn't read well at small sizes."
+      },
+      {
+        "type": "header",
+        "content": "Content"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "free_gift_heading",
+        "label": "Heading",
+        "default": "Free gift with every order"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "free_gift_text",
+        "label": "Text",
+        "default": "C2 Clear Sky Extenders, 5 pcs \u2014 included with your order. "
+      },
+      {
+        "type": "text",
+        "id": "free_gift_value_label",
+        "label": "Value label",
+        "info": "Shown after the gift's price, e.g. \"$17.00 value\". Leave empty to hide the price.",
+        "default": "value"
+      },
+      {
+        "type": "text",
+        "id": "free_gift_button_text",
+        "label": "Button text",
+        "info": "Homepage strip only.",
+        "default": "Shop the collection"
+      },
+      {
+        "type": "url",
+        "id": "free_gift_link",
+        "label": "Link",
+        "info": "Used by the homepage strip button and by the product page panel."
+      },
+      {
+        "type": "header",
+        "content": "Schedule"
+      },
+      {
+        "type": "text",
+        "id": "free_gift_end_date",
+        "label": "End date",
+        "info": "Format: YYYY-MM-DD HH:MM (store timezone). The promo stops rendering by itself after this. Leave empty to run until you switch it off."
+      },
+      {
+        "type": "checkbox",
+        "id": "free_gift_show_timer",
+        "label": "Show countdown",
+        "info": "Requires an end date. The header bar has its own separate countdown.",
+        "default": false
+      },
+      {
+        "type": "header",
+        "content": "Colors"
+      },
+      {
+        "type": "color_scheme",
+        "id": "free_gift_color_scheme",
+        "label": "Color scheme",
+        "info": "Warm off-white by default, so the promo reads as part of the page rather than as an ad.",
+        "default": "scheme-1a87c9ca-9f03-4be7-bf82-30fad622d562"
+      }
+    ]
   }
 ]

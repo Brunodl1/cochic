@@ -11,6 +11,22 @@
   "type": "header",
   "name": "Header group",
   "sections": {
+    "free-gift-bar": {
+      "type": "countdown-condensed",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-4",
+        "heading": "Free 5-pack of C2 Clear Sky Extenders with every order — ends in",
+        "layout": "split",
+        "expiration_date": "",
+        "expiration_behavior": "hide",
+        "show_inline_timer": true,
+        "button_text": "Shop now",
+        "button_url": "shopify://collections/shirt-collar-extender-full-collection",
+        "button_style": "solid",
+        "connect_button_with_heading": false
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "disabled": true,
@@ -89,6 +105,7 @@
     }
   },
   "order": [
+    "free-gift-bar",
     "announcement-bar",
     "header"
   ]
