@@ -166,10 +166,6 @@ Supported variables
           -%}
         {%- endif -%}
       </div>
-    {%- elsif settings.free_gift_link != blank -%}
-      <a href="{{ settings.free_gift_link }}" class="free-gift-promo__inner free-gift-promo__inner--link">
-        {{- promo_body -}}
-      </a>
     {%- else -%}
       <div class="free-gift-promo__inner">
         {{- promo_body -}}

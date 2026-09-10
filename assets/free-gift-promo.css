@@ -43,16 +43,6 @@
   color: rgb(var(--text-color));
 }
 
-.free-gift-promo--pdp .free-gift-promo__inner--link {
-  color: inherit;
-  text-decoration: none;
-  transition: border-color 0.2s ease;
-}
-
-.free-gift-promo--pdp .free-gift-promo__inner--link:hover {
-  border-color: rgb(var(--text-color) / 0.45);
-}
-
 /* ---------- Homepage: a calm full-width band under the hero ---------- */
 
 .free-gift-promo--strip {

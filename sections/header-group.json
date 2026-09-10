@@ -22,7 +22,7 @@
         "expiration_behavior": "hide",
         "show_inline_timer": true,
         "button_text": "Shop now",
-        "button_url": "shopify://collections/shirt-collar-extender-full-collection",
+        "button_url": "shopify://collections/all",
         "button_style": "solid",
         "connect_button_with_heading": false
       }
@@ -100,7 +100,7 @@
         "show_country_name": false,
         "show_country_flag": true,
         "show_locale_selector": true,
-        "transparent_header_text_color": "#ffffff"
+        "transparent_header_text_color": "#0e1b4d"
       }
     }
   },

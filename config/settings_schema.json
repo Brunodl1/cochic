@@ -1409,7 +1409,7 @@
         "type": "url",
         "id": "free_gift_link",
         "label": "Link",
-        "info": "Used by the homepage strip button and by the product page panel."
+        "info": "Used by the homepage strip button."
       },
       {
         "type": "header",
