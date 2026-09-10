@@ -1,0 +1,812 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "layout": "plain",
+        "show_description": true,
+        "collection_title_size": "h5",
+        "content_position": "place-self-center",
+        "background_color_scheme": "",
+        "image": "shopify://shop_images/Untitled_design_1_b45f9227-ad29-4969-bf07-3d106540138e.png",
+        "image_size": "auto",
+        "quick_navigation_menu": ""
+      }
+    },
+    "text_with_fixed_background_xbNdaV": {
+      "type": "text-with-fixed-background",
+      "blocks": {
+        "content_xQr4Dg": {
+          "type": "content",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "content_position": "md:place-self-end-start",
+            "title": "a COCHIC® lifestyle",
+            "content": "<p>The Pliio Clothing Filer is here to rescue your messy piles of clothes. Simply fold your golf shirts, t-shirts, long sleeve tops and sweaters around a Clothing Piler and it will be perfectly folded and easy to manage. You will feel as if you're visiting your own boutique when you open you closet every morning!</p>",
+            "indent_heading": false
+          }
+        }
+      },
+      "block_order": [
+        "content_xQr4Dg"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify://shop_images/Untitled_design_5.png",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "products_with_image_XWHUGD": {
+      "type": "products-with-image",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "products": [
+          "set-of-2-pliio-boxes",
+          "7-pliio-large-filers",
+          "7-pliio-medium-filers",
+          "7-small-pliio-filers",
+          "7-pliio®-clothing-piler™"
+        ],
+        "image": "shopify://shop_images/Amazon_Image_-_7_Medium_PLIIO_3_copy_be3e1ff2-fcde-49d4-afe5-0d5c887414ac.png",
+        "mobile_image": "shopify://shop_images/Untitled_design_5_copy.png",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "desktop_product_layout": "grid",
+        "mobile_product_layout": "grid",
+        "mobile_products_per_row": "2"
+      }
+    },
+    "dynamic_grid_pyWE6L": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_ijpQY3": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "desktop_only",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_4Gm9Kp": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/Amazon_Image_-_7_Medium_PLIIO_3_copy_4.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_4Gm9Kp"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_ijpQY3"
+      ],
+      "name": "t:sections.dynamic_grid.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": false,
+        "add_horizontal_spacing": false,
+        "gap": 0,
+        "mobile_gap": 0,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "hot_spots_qJeeCT": {
+      "type": "hot-spots",
+      "blocks": {
+        "placeable_content_XaFH3c": {
+          "type": "_placeable-content",
+          "settings": {
+            "position": "end-start",
+            "max_width": "sm"
+          },
+          "blocks": {
+            "button_QC8nNE": {
+              "type": "button",
+              "disabled": true,
+              "settings": {
+                "text": "shop this combo",
+                "url": "",
+                "open_in_new_tab": false,
+                "style": "link",
+                "background": "",
+                "text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "button_QC8nNE"
+          ]
+        },
+        "hot_spot_content_item_yWYnLW": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "left",
+            "desktop_horizontal_position": 34,
+            "desktop_vertical_position": 21,
+            "mobile_horizontal_position": 34,
+            "mobile_vertical_position": 15,
+            "image": "shopify://shop_images/FR.png",
+            "round_image": false,
+            "title": "<a href=\"/products/7-small-pliio-filers\" title=\"7 Small Pliio® Clothing Filers™\">Small Pliio Filers</a>",
+            "content": "<p>For baby clothes, vests, small t-shirts, croptops, underwears, etc.</p>"
+          },
+          "blocks": {}
+        },
+        "hot_spot_content_item_fn63dy": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "left",
+            "desktop_horizontal_position": 60,
+            "desktop_vertical_position": 60,
+            "mobile_horizontal_position": 60,
+            "mobile_vertical_position": 60,
+            "image": "shopify://shop_images/FR_1.png",
+            "round_image": false,
+            "title": "<a href=\"/products/7-pliio-medium-filers\" title=\"7 Pliio® Medium Clothing Filer™\">Medium Pliio Filers</a>",
+            "content": "<p>For t-shirts, pajama, leggings, scarves, etc. Works for most clothes.</p>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "placeable_content_XaFH3c",
+        "hot_spot_content_item_yWYnLW",
+        "hot_spot_content_item_fn63dy"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify://shop_images/everart-image_copy_14.jpg",
+        "hot_spot_background": "#ffffff",
+        "hot_spot_color": "#000000",
+        "background_text": "",
+        "background_text_size": "display-l",
+        "lower_scrolling_text_layer": false,
+        "show_scrolling_title": false
+      }
+    },
+    "multi_column_ycYHPB": {
+      "type": "multi-column",
+      "blocks": {
+        "multi_column_column_kgDWw3": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "left"
+          },
+          "blocks": {
+            "image_feD3rk": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/Amazon_Image_-_7_Small_PLIIO.png"
+              },
+              "blocks": {}
+            },
+            "heading_kJFw6z": {
+              "type": "heading",
+              "settings": {
+                "text": "Travelling",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_UnyQz7": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Use Clothing Pilers in your suitcase to keep dress shirts, tops and dresses ready-to-wear.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_feD3rk",
+            "heading_kJFw6z",
+            "rich_text_UnyQz7"
+          ]
+        },
+        "multi_column_column_44khqL": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "left"
+          },
+          "blocks": {
+            "image_EC8xwB": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/everart-image_copy_15.jpg"
+              },
+              "blocks": {}
+            },
+            "heading_T4xR6U": {
+              "type": "heading",
+              "settings": {
+                "text": "Use on Shelves",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_fpeHan": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>In this image: Small Filers and Medium Filers on the shelves.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_EC8xwB",
+            "heading_T4xR6U",
+            "rich_text_fpeHan"
+          ]
+        },
+        "multi_column_column_eRJGzY": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "left"
+          },
+          "blocks": {
+            "image_EzRWre": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/Amazon_Image_-_7_Small_PLIIO_1.png"
+              },
+              "blocks": {}
+            },
+            "heading_3HFXPn": {
+              "type": "heading",
+              "settings": {
+                "text": "Use with Pliio Storage Boxes",
+                "heading_size": "h4",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_6AdMRr": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>In this image: Small Filers in Pliio Box</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_EzRWre",
+            "heading_3HFXPn",
+            "rich_text_6AdMRr"
+          ]
+        },
+        "section-header": {
+          "type": "_section-header",
+          "static": true,
+          "settings": {
+            "subheading": "",
+            "title": "Let's Puzzle Them!",
+            "content": "<p>With Pliio Boxes and 3 different sizes of Pliio Filers, you can puzzle them together to build  your own combo!</p>",
+            "button_text": "",
+            "button_link": "https://www.pliio.com/",
+            "button_style": "link",
+            "text_alignment": "left",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "multi_column_column_kgDWw3",
+        "multi_column_column_44khqL",
+        "multi_column_column_eRJGzY"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_internal_borders": false,
+        "add_horizontal_spacing": true,
+        "add_top_spacing": true,
+        "add_bottom_spacing": true,
+        "items_per_row": 3,
+        "stack_on_mobile": false,
+        "stack_on_desktop": true,
+        "column_spacing": "md",
+        "row_spacing": "md"
+      }
+    },
+    "text_with_fixed_background_CHJYnh": {
+      "type": "text-with-fixed-background",
+      "blocks": {
+        "content_fahVfb": {
+          "type": "content",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "content_position": "md:place-self-end",
+            "title": "<a href=\"/products/set-of-2-pliio-boxes\" title=\"2 Pliio® Boxes\"><strong>Pliio® Storage Boxes</strong></a>",
+            "content": "<p>Pliio Storage Boxes are designed specifically to accommodate Pliio Clothing Filers with no wasted space.</p><p>Usually, each Pliio box can hold 10 Medium Filers, 7 Large Filers, or 14 Small Filers.</p>",
+            "indent_heading": false
+          }
+        }
+      },
+      "block_order": [
+        "content_fahVfb"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "image": "shopify://shop_images/Amazon_Image_-_7_Medium_PLIIO_2.png",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "testimonials_Ldcjci": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_VM7GFX": {
+          "type": "testimonial",
+          "settings": {
+            "show_rating": true,
+            "rating": 5,
+            "author": "<strong>PL Eberhart </strong>",
+            "title": "Perfect size for organizing small items.",
+            "heading_tag": "h5",
+            "product": "7-small-pliio-filers",
+            "position": "place-self-center-start"
+          }
+        },
+        "testimonial_btiV8k": {
+          "type": "testimonial",
+          "settings": {
+            "show_rating": true,
+            "rating": 5,
+            "author": "Garrett Beauvais",
+            "title": "<strong>LOVE my Pliio folding boards !!!</strong>Waited sooooo long for these. Grateful to have them again.If you have t-shirts, there is no better storage system than Pliio folding boards.",
+            "heading_tag": "h5",
+            "product": "7-pliio-medium-filers",
+            "position": "place-self-start"
+          }
+        },
+        "testimonial_dLGb4z": {
+          "type": "testimonial",
+          "settings": {
+            "show_rating": true,
+            "rating": 5,
+            "author": "Anonymous",
+            "title": "<strong>Great Organizer! </strong>I have number of these and needed more. These are amazing for organizing your drawers and keeping them neat. Easy to see what you have, pull it out, use it and put it away.",
+            "heading_tag": "h5",
+            "product": "set-of-2-pliio-boxes",
+            "position": "place-self-start"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_VM7GFX",
+        "testimonial_btiV8k",
+        "testimonial_dLGb4z"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "text_alignment": "left",
+        "image_position": "start",
+        "autoplay": true,
+        "cycle_speed": 4
+      }
+    },
+    "press_RPLHMA": {
+      "type": "press",
+      "blocks": {
+        "item_nYMdML": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Set7SmallFilers_1800x1800_a515189a-e446-40ae-bed1-29fffea2c630.webp",
+            "logo_width": 80,
+            "author": "<strong>PL Eberhart </strong>",
+            "content": "⭐️⭐️⭐️⭐️⭐️Perfect size for organizing small items."
+          }
+        },
+        "item_W8qttB": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Set2Boxes_1800x1800_d44cbff0-35a4-4a7f-9487-2f5e2d182cde.webp",
+            "logo_width": 80,
+            "author": "<strong>Garrett Beauvais</strong>",
+            "content": "<strong>⭐️⭐️⭐️⭐️⭐️LOVE my Pliio folding boards !!!</strong>Waited sooooo long for these. Grateful to have them again.If you have t-shirts, there is no better storage system than Pliio folding boards."
+          }
+        },
+        "item_ehbAdj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Setof7MediumFilers_1800x1800_f9063e31-076d-4da3-afc2-e3d6153cb5f8.webp",
+            "logo_width": 80,
+            "author": "",
+            "content": "<strong>⭐️⭐️⭐️⭐️⭐️Great Organizer! </strong>I have number of these and needed more. These are amazing for organizing your drawers and keeping them neat. Easy to see what you have, pull it out, use it and put it away."
+          }
+        }
+      },
+      "block_order": [
+        "item_nYMdML",
+        "item_W8qttB",
+        "item_ehbAdj"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "title": "",
+        "use_arrows_navigation": true,
+        "show_quotation_mark": false,
+        "quotation_tag": "h6",
+        "item_style": "avatar",
+        "autoplay": true,
+        "cycle_speed": 4,
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "before_after_JkCB6f": {
+      "type": "before-after",
+      "blocks": {
+        "before_TJYaeX": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "scheme-2",
+            "image": "shopify://shop_images/suitcase_copy.png",
+            "text": "Before",
+            "text_size": "h7",
+            "text_position": "end"
+          }
+        },
+        "after_3NVxfg": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "scheme-2",
+            "image": "shopify://shop_images/suitcase_77f62f90-7b66-4cef-bf75-6d8afcf394b9.png",
+            "text": "After",
+            "text_size": "h7",
+            "text_position": "end"
+          }
+        }
+      },
+      "block_order": [
+        "before_TJYaeX",
+        "after_3NVxfg"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "layout": "stacked",
+        "add_comparison_spacing": true,
+        "subheading": "",
+        "title": "",
+        "title_tag": "h3",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "solid",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#535150"
+      }
+    },
+    "dynamic_grid_FDAmrc": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_RhA4e9": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 4,
+            "desktop_column_end": 15,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_3qFzTM": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Circular Economy in Action",
+                "show_text_vertically": false,
+                "font_size_desktop": 4,
+                "font_size_mobile": 7.5,
+                "font_size_line_height": 0.9,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_3qFzTM"
+          ]
+        },
+        "dynamic_grid_item_FLxUa3": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 3,
+            "desktop_column_start": 8,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 5,
+            "mobile_column_start": 3,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_kz9bg7": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Locally made and sourced, Pliio is crafted from 100% polypropylene and recycled cardboard, giving materials a second life.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_kz9bg7"
+          ]
+        },
+        "dynamic_grid_item_NkiQJd": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 5,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 8,
+            "mobile_column_start": 1,
+            "mobile_column_end": 5,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_Rxjz7X": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Designed for a Greener Future",
+                "show_text_vertically": false,
+                "font_size_desktop": 4,
+                "font_size_mobile": 7.5,
+                "font_size_line_height": 0.9,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_Rxjz7X"
+          ]
+        },
+        "dynamic_grid_item_C6kxL9": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 6,
+            "desktop_column_start": 1,
+            "desktop_column_end": 8,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 10,
+            "mobile_column_start": 1,
+            "mobile_column_end": 4,
+            "mobile_horizontal_adjustment": 1.5,
+            "mobile_vertical_adjustment": -5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_LWqhQj": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Every Pliio product supports waste reduction and a more sustainable way to stay organized. Practical, durable, and eco-conscious.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_LWqhQj"
+          ]
+        },
+        "dynamic_grid_item_M6eqJw": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 7,
+            "desktop_column_start": 7,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": -2,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 12,
+            "mobile_column_start": 5,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": -2.5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_g6Yy4X": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Less Waste, More Impact",
+                "show_text_vertically": false,
+                "font_size_desktop": 4,
+                "font_size_mobile": 7.5,
+                "font_size_line_height": 0.9,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_g6Yy4X"
+          ]
+        },
+        "dynamic_grid_item_WDnEME": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 8,
+            "desktop_column_start": 7,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 13,
+            "mobile_column_start": 5,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0.5,
+            "mobile_vertical_adjustment": 5,
+            "parallax_speed": 0,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "rich_text_Fp7yxU": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>By choosing Pliio, you're embracing circular design, keeping valuable resources in use while reducing environmental impact.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_Fp7yxU"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_RhA4e9",
+        "dynamic_grid_item_FLxUa3",
+        "dynamic_grid_item_NkiQJd",
+        "dynamic_grid_item_C6kxL9",
+        "dynamic_grid_item_M6eqJw",
+        "dynamic_grid_item_WDnEME"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "products_per_page": 36,
+        "products_per_row_mobile": 2,
+        "products_per_row_desktop": 4,
+        "show_product_card_size_selector": true,
+        "quick_links_menu": "",
+        "filter_layout": "drawer",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false,
+        "swatch_selector_size": "lg"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "text_with_fixed_background_xbNdaV",
+    "products_with_image_XWHUGD",
+    "dynamic_grid_pyWE6L",
+    "hot_spots_qJeeCT",
+    "multi_column_ycYHPB",
+    "text_with_fixed_background_CHJYnh",
+    "testimonials_Ldcjci",
+    "press_RPLHMA",
+    "before_after_JkCB6f",
+    "dynamic_grid_FDAmrc",
+    "main"
+  ]
+}

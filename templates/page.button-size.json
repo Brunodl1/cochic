@@ -1,0 +1,828 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "content_width": "md"
+      }
+    },
+    "rich_text_xmqGTy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jDrdpW": {
+          "type": "heading",
+          "settings": {
+            "text": "Find Your Perfect Fit:",
+            "heading_tag": "h5",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "heading_hzAx8Q": {
+          "type": "heading",
+          "settings": {
+            "text": "A Guide to find your Extender Button Sizes",
+            "heading_tag": "h2",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_ibcLxh": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Do you ever feel like your favorite shirt is just a little too snug around the neck? At COCHIC, we believe style should never come at the cost of comfort. That’s where our collar extenders come in – the discreet, elegant solution to enhance your fit without compromising your look.</p>"
+          }
+        },
+        "richtext_QzfRr7": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>But which size should you choose? Let us guide you through our button sizing options: <strong>16L, 18L, 20L, and 24L.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jDrdpW",
+        "heading_hzAx8Q",
+        "richtext_ibcLxh",
+        "richtext_QzfRr7"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "left"
+      }
+    },
+    "text_with_media_QUJkUr": {
+      "type": "text-with-media",
+      "blocks": {
+        "heading_6yVhbA": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>Understanding Button Sizes</strong>",
+            "heading_tag": "h5",
+            "position": "bottom_left",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_CYKCYQ": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Collar button sizes are measured in <strong>ligne (L)</strong> – a traditional unit used in tailoring.</p>",
+            "position": "bottom_left"
+          }
+        },
+        "richtext_BTBENX": {
+          "type": "richtext",
+          "settings": {
+            "text": "<ol><li><strong>Measure the collar button</strong> on your shirt with a caliper or ruler.</li><li><strong>Match the diameter</strong> to your available collar extender sizes (ex: if your collar button has a diameter of 11.5 mm → then choose extender for 18L).</li></ol>",
+            "position": "bottom_left"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6yVhbA",
+        "richtext_CYKCYQ",
+        "richtext_BTBENX"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "content_position": "start",
+        "content_percentage_width": 50,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20,
+        "add_media_spacing": false,
+        "autoplay_video": true,
+        "primary_image": "shopify://shop_images/draft_1.png",
+        "secondary_media_width": 60,
+        "secondary_media_mobile_width": 60,
+        "show_secondary_media_on_mobile": true,
+        "secondary_media_alignment": "place-self-center",
+        "secondary_media_shape": "none"
+      }
+    },
+    "rich_text_VQhXyh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6DaTaj": {
+          "type": "heading",
+          "settings": {
+            "text": "And yes! We make your life easier!",
+            "heading_tag": "h5",
+            "indent": "square",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "heading_ENPUFz": {
+          "type": "heading",
+          "settings": {
+            "text": "Commonly used Button Sizes on the <em>Market</em>",
+            "heading_tag": "h2",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_jBLVqm": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Always note: the <strong>button size may vary</strong> even within the same brand depending on the style (e.g., casual vs formal). </p>"
+          }
+        },
+        "richtext_YgxVYw": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Do you ever feel like your favorite shirt is just a little too snug around the neck? At Cochic, we believe style should never come at the cost of comfort. That’s where our collar extenders come in – the discreet, elegant solution to enhance your fit without compromising on looks.</p>"
+          }
+        },
+        "richtext_qWAb6B": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "text": "<p>But which size should you choose? Let us guide you through our button sizing options: <strong>16L, 18L, 20L, and 24L.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6DaTaj",
+        "heading_ENPUFz",
+        "richtext_jBLVqm",
+        "richtext_YgxVYw",
+        "richtext_qWAb6B"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_grid_HJHL6i": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_T7cBEb": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 2,
+            "desktop_column_end": 3,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 1,
+            "mobile_horizontal_adjustment": 5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_emG4WP": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "<strong>16L</strong>",
+                "show_text_vertically": false,
+                "font_size_desktop": 3.5,
+                "font_size_mobile": 6,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              }
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_emG4WP"
+          ]
+        },
+        "dynamic_grid_item_p4xFPx": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 13,
+            "desktop_column_end": 15,
+            "desktop_horizontal_adjustment": 4,
+            "desktop_vertical_adjustment": -2,
+            "mobile_row_start": 1,
+            "mobile_column_start": 3,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_Fjjhzc": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Often found in luxury or European brands for men's shirts.",
+                "show_text_vertically": false,
+                "font_size_desktop": 1.5,
+                "font_size_mobile": 3.5,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              }
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_Fjjhzc"
+          ]
+        },
+        "dynamic_grid_item_RgBpGd": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 5,
+            "desktop_column_end": 6,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 2.5,
+            "mobile_row_start": 2,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_GjxfN3": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/19.png",
+                "caption": ""
+              }
+            }
+          },
+          "block_order": [
+            "image_with_caption_GjxfN3"
+          ]
+        },
+        "dynamic_grid_item_eyJVmc": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 8,
+            "desktop_column_end": 9,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 2.5,
+            "mobile_row_start": 2,
+            "mobile_column_start": 4,
+            "mobile_column_end": 5,
+            "mobile_horizontal_adjustment": -0.5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_7Rkbth": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/20.png",
+                "caption": ""
+              }
+            }
+          },
+          "block_order": [
+            "image_with_caption_7Rkbth"
+          ]
+        },
+        "dynamic_grid_item_WWnmte": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 11,
+            "desktop_column_end": 12,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 2.5,
+            "mobile_row_start": 2,
+            "mobile_column_start": 7,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_xTKEmU": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/21_6029ebb1-cea7-43bb-ab57-a07af8ff310a.png",
+                "caption": ""
+              }
+            }
+          },
+          "block_order": [
+            "image_with_caption_xTKEmU"
+          ]
+        },
+        "dynamic_grid_item_Nqpm8g": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "mobile_only",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 3,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_qTdCMt": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/draft_1_1c1aab43-2824-400c-9085-8e8345777bc8.png",
+                "caption": ""
+              }
+            }
+          },
+          "block_order": [
+            "image_with_caption_qTdCMt"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_T7cBEb",
+        "dynamic_grid_item_p4xFPx",
+        "dynamic_grid_item_RgBpGd",
+        "dynamic_grid_item_eyJVmc",
+        "dynamic_grid_item_WWnmte",
+        "dynamic_grid_item_Nqpm8g"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 48,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "dynamic_grid_tYCxLq": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_Gjp88F": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 2,
+            "desktop_column_end": 3,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 1,
+            "mobile_horizontal_adjustment": 5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_a6gUKJ": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "<strong>18L</strong>",
+                "show_text_vertically": false,
+                "font_size_desktop": 3.5,
+                "font_size_mobile": 6,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              }
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_a6gUKJ"
+          ]
+        },
+        "dynamic_grid_item_C84M7C": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 13,
+            "desktop_column_end": 15,
+            "desktop_horizontal_adjustment": 4,
+            "desktop_vertical_adjustment": -2,
+            "mobile_row_start": 1,
+            "mobile_column_start": 3,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_RmzPMR": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "18L to 20L are the most common sizes for collar buttons in mass-market men’s shirts.",
+                "show_text_vertically": false,
+                "font_size_desktop": 1.5,
+                "font_size_mobile": 3.5,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              }
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_RmzPMR"
+          ]
+        },
+        "dynamic_grid_item_MmfUUH": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 5,
+            "desktop_column_end": 6,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 2.5,
+            "mobile_row_start": 2,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_BkmbAx": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/24.png",
+                "caption": ""
+              }
+            }
+          },
+          "block_order": [
+            "image_with_caption_BkmbAx"
+          ]
+        },
+        "dynamic_grid_item_8tE7fe": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 8,
+            "desktop_column_end": 9,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 2.5,
+            "mobile_row_start": 2,
+            "mobile_column_start": 4,
+            "mobile_column_end": 5,
+            "mobile_horizontal_adjustment": -0.5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_U74xN9": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/23.png",
+                "caption": ""
+              }
+            }
+          },
+          "block_order": [
+            "image_with_caption_U74xN9"
+          ]
+        },
+        "dynamic_grid_item_9EXpGL": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 11,
+            "desktop_column_end": 12,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 2.5,
+            "mobile_row_start": 2,
+            "mobile_column_start": 7,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_VyCmxf": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/22.png",
+                "caption": ""
+              }
+            }
+          },
+          "block_order": [
+            "image_with_caption_VyCmxf"
+          ]
+        },
+        "dynamic_grid_item_EKJfrr": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 3,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_pwTKnA": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/draft_1_1c1aab43-2824-400c-9085-8e8345777bc8.png",
+                "caption": ""
+              }
+            }
+          },
+          "block_order": [
+            "image_with_caption_pwTKnA"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_Gjp88F",
+        "dynamic_grid_item_C84M7C",
+        "dynamic_grid_item_MmfUUH",
+        "dynamic_grid_item_8tE7fe",
+        "dynamic_grid_item_9EXpGL",
+        "dynamic_grid_item_EKJfrr"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "dynamic_grid_DjMAKd": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_R6jp6D": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 2,
+            "desktop_column_end": 3,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_ek3zjq": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "<strong>20L</strong>",
+                "show_text_vertically": false,
+                "font_size_desktop": 3.5,
+                "font_size_mobile": 6,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              }
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_ek3zjq"
+          ]
+        },
+        "dynamic_grid_item_Mjnzjb": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 5,
+            "desktop_column_end": 6,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 2.5,
+            "mobile_row_start": 2,
+            "mobile_column_start": 1,
+            "mobile_column_end": 2,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_AVgHEt": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/27.png",
+                "caption": ""
+              }
+            }
+          },
+          "block_order": [
+            "image_with_caption_AVgHEt"
+          ]
+        },
+        "dynamic_grid_item_U9qPbb": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 8,
+            "desktop_column_end": 9,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 2.5,
+            "mobile_row_start": 2,
+            "mobile_column_start": 4,
+            "mobile_column_end": 5,
+            "mobile_horizontal_adjustment": -0.5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_WP9RDi": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/26.png",
+                "caption": ""
+              }
+            }
+          },
+          "block_order": [
+            "image_with_caption_WP9RDi"
+          ]
+        },
+        "dynamic_grid_item_g4FckC": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 11,
+            "desktop_column_end": 12,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 2.5,
+            "mobile_row_start": 2,
+            "mobile_column_start": 7,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_n7VTpb": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/25.png",
+                "caption": ""
+              }
+            }
+          },
+          "block_order": [
+            "image_with_caption_n7VTpb"
+          ]
+        },
+        "dynamic_grid_item_U76kna": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 4,
+            "desktop_column_start": 2,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_iGp3KH": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p></p><p><strong>24L</strong>: Occasionally for very bold or decorative collars. More commonly used on pants.</p>",
+                "content_width": "sm"
+              }
+            }
+          },
+          "block_order": [
+            "rich_text_iGp3KH"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_R6jp6D",
+        "dynamic_grid_item_Mjnzjb",
+        "dynamic_grid_item_U9qPbb",
+        "dynamic_grid_item_g4FckC",
+        "dynamic_grid_item_U76kna"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_xmqGTy",
+    "text_with_media_QUJkUr",
+    "rich_text_VQhXyh",
+    "dynamic_grid_HJHL6i",
+    "dynamic_grid_tYCxLq",
+    "dynamic_grid_DjMAKd"
+  ]
+}

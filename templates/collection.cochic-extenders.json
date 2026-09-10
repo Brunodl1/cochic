@@ -1,0 +1,1678 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "text_with_fixed_background_xbNdaV": {
+      "type": "text-with-fixed-background",
+      "blocks": {
+        "content_xQr4Dg": {
+          "type": "content",
+          "settings": {
+            "color_scheme": "",
+            "content_position": "md:place-self-end-start",
+            "title": "Innovation",
+            "content": "<p>The Pliio Clothing Filer is here to rescue your messy piles of clothes. Simply fold your golf shirts, t-shirts, long sleeve tops and sweaters around a Clothing Piler and it will be perfectly folded and easy to manage. You will feel as if you're visiting your own boutique when you open you closet every morning!</p>",
+            "indent_heading": false
+          }
+        }
+      },
+      "block_order": [
+        "content_xQr4Dg"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify://shop_images/Untitled_design.jpg",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "layout": "plain",
+        "show_description": true,
+        "collection_title_size": "h5",
+        "content_position": "place-self-center",
+        "background_color_scheme": "",
+        "image": "shopify://shop_images/65098653_2157852851173593_5783315975302803352_n_18079766182031148_3d2d6c10-691b-41f0-9fce-2cef5b9e8001.jpg",
+        "image_size": "auto",
+        "quick_navigation_menu": ""
+      }
+    },
+    "text_with_fixed_background_CHJYnh": {
+      "type": "text-with-fixed-background",
+      "blocks": {
+        "title_cKRXEH": {
+          "type": "title",
+          "settings": {
+            "content_position": "md:place-self-start",
+            "subheading": "",
+            "title": "A Small Accessory, A Big Impact",
+            "heading_tag": "h2",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "content_fahVfb": {
+          "type": "content",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "content_position": "md:place-self-end-start",
+            "title": "",
+            "content": "<p>Experience unparalleled <strong>comfort </strong>and<strong> style</strong> with our <strong>innovative elastic collar extenders</strong>. </p><p>Designed to discreetly extend snug collars, say goodbye to tight collars. These high-quality accessories ensure the perfect fit for dress shirts and blouses. </p>",
+            "indent_heading": false
+          }
+        }
+      },
+      "block_order": [
+        "title_cKRXEH",
+        "content_fahVfb"
+      ],
+      "settings": {
+        "color_scheme": "scheme-2",
+        "image": "shopify://shop_images/65098653_2157852851173593_5783315975302803352_n_18079766182031148_3d2d6c10-691b-41f0-9fce-2cef5b9e8001.jpg",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "featured_product_list_C4JyLg": {
+      "type": "featured-product-list",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "product_list": [
+          "grey-shirt-collar-extender",
+          "blue-shirt-collar-extender",
+          "black-shirt-collar-extender-midnight-kisses",
+          "red-shirt-collar-extender",
+          "white-shirt-collar-extender-white-classic",
+          "shirt-collar-and-cufflinks-extenders-blue",
+          "shirt-collar-and-cufflinks-extenders-red",
+          "shirt-collar-and-cufflinks-extenders-3pcs-green",
+          "collar-extender-2-size-16l-18l-white",
+          "white-set-of-3-shirt-collar-extender",
+          "blue-white-set-shirt-collar-extender",
+          "black-white-set-shirt-collar-extender",
+          "cochic-shirt-collar-extenders-red-white-set",
+          "collar-extender-kit-5-pices-multicolor",
+          "blue-red-black-set-shirt-collar-extender"
+        ],
+        "stack_products_mobile": false,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "intro_color_scheme": "",
+        "intro_title": "<strong>CLASSIC EXTENDERS</strong>",
+        "intro_title_tag": "h5",
+        "intro_content": "<p>If you stayed at the <strong>Ritz Carlton in Montreal</strong>, you probably have received our classic white collar extender as a special gift. </p>",
+        "intro_button_text": "View collection ->",
+        "intro_button_link": "shopify://collections/classic-extenders",
+        "intro_button_style": "link"
+      }
+    },
+    "featured_product_list_FfLrUa": {
+      "type": "featured-product-list",
+      "settings": {
+        "color_scheme": "",
+        "product_list": [
+          "upcycled-shirt-collar-extender-coffee-ground-natural-color",
+          "upcycled-shirt-collar-extender-coconut-fiber",
+          "copy-of-shirt-collar-extender-coconut-fiber-2pcs",
+          "upcycled-shirt-collar-extender-egg-shell-natural-color",
+          "upcycled-shirt-collar-extender-rice-husk-natural-color",
+          "upcycled-shirt-collar-extender-rice-straw-natural-color",
+          "waist-extender-recycled-plastic-bottles",
+          "upcycled-waist-extender-coconut-fiber",
+          "shirt-collar-extender-recycled-plastic",
+          "upcycled-shirt-collar-extender-recycled-bottles"
+        ],
+        "stack_products_mobile": false,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "intro_color_scheme": "",
+        "intro_title": "<strong>UPCYCLED COLLECTION</strong>",
+        "intro_title_tag": "h5",
+        "intro_content": "<p>Sustainability meets elegance, made from recycled or upcycled materials.</p>",
+        "intro_button_text": "view collection ->",
+        "intro_button_link": "shopify://collections/upcycled-collar-extenders",
+        "intro_button_style": "link"
+      }
+    },
+    "featured_product_list_9nc73B": {
+      "type": "featured-product-list",
+      "settings": {
+        "color_scheme": "",
+        "product_list": [
+          "set-maternity-pant-extender-gray",
+          "waist-extender-black",
+          "lady-waist-extender-grey-nacre",
+          "upcycled-waist-extender-coconut-fiber",
+          "waist-extender-recycled-plastic-bottles",
+          "3-grey-pants-waist-extenders-set",
+          "set-pants-extender-grey"
+        ],
+        "stack_products_mobile": false,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "intro_color_scheme": "",
+        "intro_title": "<strong>PANT WAIST EXTENDER</strong>",
+        "intro_title_tag": "h5",
+        "intro_content": "<p>Size up your pants with a small washable pant extender.</p>",
+        "intro_button_text": "view collection ->",
+        "intro_button_link": "shopify://collections/waist-extenders",
+        "intro_button_style": "link"
+      }
+    },
+    "featured_product_list_gPczVJ": {
+      "type": "featured-product-list",
+      "settings": {
+        "color_scheme": "",
+        "product_list": [
+          "daffodil-resilience-cufflinks-2pc-classic-chic",
+          "daffodil-resilience-shirt-collar-exender-1pc-classic-chic",
+          "daffodil-resilience-trio-3pc-classic-chic"
+        ],
+        "stack_products_mobile": false,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "intro_color_scheme": "",
+        "intro_title": "<strong>THE DAFFODIL COLLECTION</strong>",
+        "intro_title_tag": "h5",
+        "intro_content": "<p>100% of profit goes to Canadian Cancer Society for breast cancer research!</p>",
+        "intro_button_text": "view collection ->",
+        "intro_button_link": "shopify://pages/the-daffodil-collection",
+        "intro_button_style": "link"
+      }
+    },
+    "featured_product_list_teppRg": {
+      "type": "featured-product-list",
+      "settings": {
+        "color_scheme": "",
+        "product_list": [
+          "shirt-collar-extender-american-set-2-sizes",
+          "white-set-shirt-collar-extender-canadian-set",
+          "american-collar-extender-travel-set",
+          "multicolor-cufflinks-collar-extender-kit"
+        ],
+        "stack_products_mobile": false,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "intro_color_scheme": "",
+        "intro_title": "<strong>SPECIAL EDITIONS</strong>",
+        "intro_title_tag": "h5",
+        "intro_content": "",
+        "intro_button_text": "view collection ->",
+        "intro_button_link": "shopify://collections/special-edition-extenders",
+        "intro_button_style": "link"
+      }
+    },
+    "featured_product_list_6JDrGg": {
+      "type": "featured-product-list",
+      "settings": {
+        "color_scheme": "",
+        "product_list": [
+          "c2-clear-sky-extenders-5-units",
+          "c2-luna-extenders-5-pack",
+          "c2-white-extenders-5-packs-16l"
+        ],
+        "stack_products_mobile": false,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "intro_color_scheme": "",
+        "intro_title": "C2",
+        "intro_title_tag": "h5",
+        "intro_content": "<p>Everyday essentials set.</p>",
+        "intro_button_text": "view collection ->",
+        "intro_button_link": "shopify://collections/c2-collection",
+        "intro_button_style": "link"
+      }
+    },
+    "featured_product_list_LizRz7": {
+      "type": "featured-product-list",
+      "settings": {
+        "color_scheme": "",
+        "product_list": [
+          "set-shirt-collar-and-pant-waist-extenders",
+          "set-collar-cufflinks-and-waist-extenders",
+          "american-collar-extender-travel-set",
+          "white-collar-extender-travel-set",
+          "mexican-collar-extender-travel-set",
+          "set-1-white-collar-extender-1-black-waist-extender-and-2-collar-stays",
+          "set-3-collar-extenders-3-waist-extenders"
+        ],
+        "stack_products_mobile": false,
+        "stack_products_desktop": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "intro_color_scheme": "",
+        "intro_title": "<strong>SHOP SETS</strong>",
+        "intro_title_tag": "h5",
+        "intro_content": "",
+        "intro_button_text": "view collection ->",
+        "intro_button_link": "shopify://collections/shop-sets",
+        "intro_button_style": "link"
+      }
+    },
+    "dynamic_grid_RzPCTP": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_YKYfPR": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 8,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 2,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": -2,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_xn4DrJ": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Did you know",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 10,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_xn4DrJ"
+          ]
+        },
+        "dynamic_grid_item_qn4JNy": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 13,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0.5,
+            "desktop_vertical_adjustment": 1,
+            "mobile_row_start": 3,
+            "mobile_column_start": 1,
+            "mobile_column_end": 4,
+            "mobile_horizontal_adjustment": 1,
+            "mobile_vertical_adjustment": 5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_pbNdXk": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>that the fashion industry is responsible for<strong> </strong></p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_pbNdXk"
+          ]
+        },
+        "dynamic_grid_item_BXJwwp": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 3,
+            "desktop_column_start": 8,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 4,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": -2.5,
+            "mobile_vertical_adjustment": -1.5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_WxnLiw": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "<strong>over 10.5 million tons</strong>",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 5,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_WxnLiw"
+          ]
+        },
+        "dynamic_grid_item_GVePqw": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 4,
+            "desktop_column_start": 11,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 1.5,
+            "desktop_vertical_adjustment": -1,
+            "mobile_row_start": 4,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 1,
+            "mobile_vertical_adjustment": 3.5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_VWhQrj": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>of textile waste every year in North America?</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_VWhQrj"
+          ]
+        },
+        "dynamic_grid_item_LaXqbR": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 4,
+            "desktop_column_start": 9,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 5,
+            "mobile_column_start": 1,
+            "mobile_column_end": 3,
+            "mobile_horizontal_adjustment": 2.5,
+            "mobile_vertical_adjustment": -4,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_79wVBA": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/eco_collection_12_copy_2.png",
+                "mobile_image": "shopify://shop_images/eco_collection_12_copy.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_79wVBA"
+          ]
+        },
+        "dynamic_grid_item_jYqfgM": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 5,
+            "desktop_column_start": 1,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 1.5,
+            "desktop_vertical_adjustment": -2,
+            "mobile_row_start": 7,
+            "mobile_column_start": 5,
+            "mobile_column_end": 6,
+            "mobile_horizontal_adjustment": -2.5,
+            "mobile_vertical_adjustment": -1.5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_VPDD8K": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "<strong>95%</strong>",
+                "show_text_vertically": false,
+                "font_size_desktop": 4,
+                "font_size_mobile": 6,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_VPDD8K"
+          ]
+        },
+        "dynamic_grid_item_EPLMbE": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 5,
+            "desktop_column_start": 3,
+            "desktop_column_end": 12,
+            "desktop_horizontal_adjustment": -1.5,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 7,
+            "mobile_column_start": 6,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_xyQBV9": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>of discarded clothing could be reused or recycled</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_xyQBV9"
+          ]
+        },
+        "dynamic_grid_item_46YBhE": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 6,
+            "desktop_horizontal_adjustment": 4,
+            "desktop_vertical_adjustment": -4,
+            "mobile_row_start": 1,
+            "mobile_column_start": 6,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 4.5,
+            "mobile_vertical_adjustment": -5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_twQVng": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/eco_collection_12_copy_3.png",
+                "mobile_image": "shopify://shop_images/eco_collection_12_copy_3_5af1686c-0348-4940-b763-38c5417c8e68.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_twQVng"
+          ]
+        },
+        "dynamic_grid_item_GCEYTN": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 5,
+            "desktop_column_start": 1,
+            "desktop_column_end": 7,
+            "desktop_horizontal_adjustment": 2,
+            "desktop_vertical_adjustment": 2,
+            "mobile_row_start": 9,
+            "mobile_column_start": 1,
+            "mobile_column_end": 6,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": -2,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_YeRjMB": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>40% of people throw their clothes because they don't fit anymore. The fast fashion cycle has led to a truckload of textiles being landfilled or incinerated every second.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_YeRjMB"
+          ]
+        },
+        "dynamic_grid_item_DXGPgM": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 15,
+            "desktop_column_start": 1,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": -2.5,
+            "mobile_row_start": 9,
+            "mobile_column_start": 6,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 2,
+            "mobile_vertical_adjustment": -5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_ihtA3n": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/eco_collection_12_copy_5.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_ihtA3n"
+          ]
+        },
+        "dynamic_grid_item_GcdDjd": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "desktop_only",
+            "text_alignment": "left",
+            "desktop_row_start": 15,
+            "desktop_column_start": 13,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": -2,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 3,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_NKLdiK": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/eco_collection_12_copy_6.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_NKLdiK"
+          ]
+        },
+        "dynamic_grid_item_9bkcwm": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "mobile_only",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 12,
+            "mobile_column_start": 3,
+            "mobile_column_end": 5,
+            "mobile_horizontal_adjustment": 4,
+            "mobile_vertical_adjustment": 3,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_n4GQ7A": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "What if",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 10,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_n4GQ7A"
+          ]
+        },
+        "dynamic_grid_item_3NXP3r": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "mobile_only",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 13,
+            "mobile_column_start": 1,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 5,
+            "mobile_vertical_adjustment": 2.5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_ffRz33": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p><strong>we make our clothes last longer</strong> instead of constantly buying more<strong>?</strong></p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_ffRz33"
+          ]
+        },
+        "dynamic_grid_item_KcHkkV": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "desktop_only",
+            "text_alignment": "left",
+            "desktop_row_start": 8,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 1.5,
+            "desktop_vertical_adjustment": 4.5,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 3,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_MEAQBc": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "<strong>What if </strong>we make our clothes last longer instead of constantly buying more?",
+                "show_text_vertically": false,
+                "font_size_desktop": 4,
+                "font_size_mobile": 10,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_MEAQBc"
+          ]
+        },
+        "dynamic_grid_item_LGiMqz": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 12,
+            "desktop_column_start": 4,
+            "desktop_column_end": 14,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 16,
+            "mobile_column_start": 4,
+            "mobile_column_end": 6,
+            "mobile_horizontal_adjustment": -3,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": -9,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "dynamic_grid_heading_KermGx": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "COCHIC",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 7.5,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_KermGx"
+          ]
+        },
+        "dynamic_grid_item_ckd9c7": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 12,
+            "desktop_column_start": 10,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 17,
+            "mobile_column_start": 3,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 2.5,
+            "mobile_vertical_adjustment": -3.5,
+            "parallax_speed": 9,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "dynamic_grid_heading_W3GdxH": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Extenders",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 7.5,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_W3GdxH"
+          ]
+        },
+        "dynamic_grid_item_YFRx9C": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 12,
+            "desktop_column_start": 8,
+            "desktop_column_end": 10,
+            "desktop_horizontal_adjustment": -3.5,
+            "desktop_vertical_adjustment": -3.5,
+            "mobile_row_start": 15,
+            "mobile_column_start": 4,
+            "mobile_column_end": 5,
+            "mobile_horizontal_adjustment": -2,
+            "mobile_vertical_adjustment": -3,
+            "parallax_speed": 1,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "image_with_caption_YJf4mt": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/769bdd5c-f850-4be4-8cec-1f397eb588b6.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_YJf4mt"
+          ]
+        },
+        "dynamic_grid_item_jLG8ht": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 12,
+            "desktop_column_start": 7,
+            "desktop_column_end": 10,
+            "desktop_horizontal_adjustment": 0.5,
+            "desktop_vertical_adjustment": -4,
+            "mobile_row_start": 15,
+            "mobile_column_start": 4,
+            "mobile_column_end": 6,
+            "mobile_horizontal_adjustment": -4,
+            "mobile_vertical_adjustment": -5,
+            "parallax_speed": -1,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "image_with_caption_hRRqeh": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/d85225b9-cb20-46f8-a892-793907fe285b.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_hRRqeh"
+          ]
+        },
+        "dynamic_grid_item_U9bE7p": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 16,
+            "desktop_column_start": 6,
+            "desktop_column_end": 13,
+            "desktop_horizontal_adjustment": -2.5,
+            "desktop_vertical_adjustment": -4,
+            "mobile_row_start": 18,
+            "mobile_column_start": 2,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_bkW3gW": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p><strong>Spice up your look</strong> and express your style with a variety of vibrant colors.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_bkW3gW"
+          ]
+        },
+        "dynamic_grid_item_FcPWBy": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 16,
+            "desktop_column_start": 6,
+            "desktop_column_end": 13,
+            "desktop_horizontal_adjustment": -2.5,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 19,
+            "mobile_column_start": 2,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_CwygN8": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p><strong>Extends the life of your shirts</strong>, reducing the need to replace them.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_CwygN8"
+          ]
+        },
+        "dynamic_grid_item_bTYfHM": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 17,
+            "desktop_column_start": 6,
+            "desktop_column_end": 13,
+            "desktop_horizontal_adjustment": -2.5,
+            "desktop_vertical_adjustment": -2,
+            "mobile_row_start": 20,
+            "mobile_column_start": 2,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_zxHFDr": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p><strong>Reduces textile waste</strong> by keeping garments in use longer.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_zxHFDr"
+          ]
+        },
+        "dynamic_grid_item_E6QYXz": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "mobile_only",
+            "text_alignment": "left",
+            "desktop_row_start": 17,
+            "desktop_column_start": 6,
+            "desktop_column_end": 13,
+            "desktop_horizontal_adjustment": -2.5,
+            "desktop_vertical_adjustment": 1.5,
+            "mobile_row_start": 21,
+            "mobile_column_start": 2,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_bLfEY3": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p><strong>Encourages responsible fashion</strong>, preventing perfectly good clothes from being discarded because they no longer feel comfortable.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_bLfEY3"
+          ]
+        },
+        "dynamic_grid_item_4BPKmP": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "desktop_only",
+            "text_alignment": "left",
+            "desktop_row_start": 17,
+            "desktop_column_start": 6,
+            "desktop_column_end": 13,
+            "desktop_horizontal_adjustment": -2.5,
+            "desktop_vertical_adjustment": 1.5,
+            "mobile_row_start": 21,
+            "mobile_column_start": 2,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_K9D8hV": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p><strong>Encourages responsible fashion</strong>, preventing perfectly good clothes from being discarded because they no longer feel comfortable.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_K9D8hV"
+          ]
+        },
+        "dynamic_grid_item_GVtktk": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "desktop_only",
+            "text_alignment": "left",
+            "desktop_row_start": 17,
+            "desktop_column_start": 6,
+            "desktop_column_end": 13,
+            "desktop_horizontal_adjustment": -2.5,
+            "desktop_vertical_adjustment": 3.5,
+            "mobile_row_start": 21,
+            "mobile_column_start": 2,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_YKYfPR",
+        "dynamic_grid_item_qn4JNy",
+        "dynamic_grid_item_BXJwwp",
+        "dynamic_grid_item_GVePqw",
+        "dynamic_grid_item_LaXqbR",
+        "dynamic_grid_item_jYqfgM",
+        "dynamic_grid_item_EPLMbE",
+        "dynamic_grid_item_46YBhE",
+        "dynamic_grid_item_GCEYTN",
+        "dynamic_grid_item_DXGPgM",
+        "dynamic_grid_item_GcdDjd",
+        "dynamic_grid_item_9bkcwm",
+        "dynamic_grid_item_3NXP3r",
+        "dynamic_grid_item_KcHkkV",
+        "dynamic_grid_item_LGiMqz",
+        "dynamic_grid_item_ckd9c7",
+        "dynamic_grid_item_YFRx9C",
+        "dynamic_grid_item_jLG8ht",
+        "dynamic_grid_item_U9bE7p",
+        "dynamic_grid_item_FcPWBy",
+        "dynamic_grid_item_bTYfHM",
+        "dynamic_grid_item_E6QYXz",
+        "dynamic_grid_item_4BPKmP",
+        "dynamic_grid_item_GVtktk"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "hot_spots_qJeeCT": {
+      "type": "hot-spots",
+      "blocks": {
+        "placeable_content_XaFH3c": {
+          "type": "_placeable-content",
+          "settings": {
+            "position": "start",
+            "max_width": "sm"
+          },
+          "blocks": {
+            "button_QC8nNE": {
+              "type": "button",
+              "settings": {
+                "text": "shop best sellers ->",
+                "url": "shopify://collections/classic-extenders",
+                "open_in_new_tab": false,
+                "style": "link",
+                "background": "",
+                "text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "button_QC8nNE"
+          ]
+        },
+        "hot_spot_content_item_fn63dy": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "left",
+            "desktop_horizontal_position": 60,
+            "desktop_vertical_position": 60,
+            "mobile_horizontal_position": 60,
+            "mobile_vertical_position": 60,
+            "image": "shopify://shop_images/4_8eb74fd6-1426-4c07-b043-1e7d8a23906d.png",
+            "round_image": false,
+            "title": "<a href=\"/products/grey-shirt-collar-extender\" title=\"Shirt Collar Extenders (2pcs, Grey)\">Shirt Collar Extenders</a>",
+            "content": "<p>(2pcs, Grey)  ⭐️4.3/5.0</p>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "placeable_content_XaFH3c",
+        "hot_spot_content_item_fn63dy"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify://shop_images/59959653_119207205708391_4771256104009607295_n_17886670915343679_7244e3ae-08d5-4d9b-a1f8-af2e49cf2704.jpg",
+        "mobile_image": "shopify://shop_images/59959653_119207205708391_4771256104009607295_n_17886670915343679_8a48da4c-ba05-44b1-883b-d2fa6923d9a5.jpg",
+        "hot_spot_background": "#ffffff",
+        "hot_spot_color": "#000000",
+        "background_text": "",
+        "background_text_size": "display-l",
+        "lower_scrolling_text_layer": false,
+        "show_scrolling_title": false
+      }
+    },
+    "multi_column_ycYHPB": {
+      "type": "multi-column",
+      "blocks": {
+        "multi_column_column_44khqL": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "left"
+          },
+          "blocks": {
+            "image_EC8xwB": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/draft_1_f68e878a-51f2-4e5e-8190-84623cfd87ce.png"
+              },
+              "blocks": {}
+            },
+            "heading_T4xR6U": {
+              "type": "heading",
+              "settings": {
+                "text": "Choice of Materials",
+                "heading_size": "h5",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "button_ephhQ9": {
+              "type": "button",
+              "settings": {
+                "text": "Show More",
+                "url": "shopify://pages/choice-of-materials",
+                "open_in_new_tab": false,
+                "style": "outline",
+                "background": "",
+                "text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_EC8xwB",
+            "heading_T4xR6U",
+            "button_ephhQ9"
+          ]
+        },
+        "multi_column_column_eRJGzY": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "left"
+          },
+          "blocks": {
+            "image_EzRWre": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/316562501_188268690425632_6025461069556498845_n_18086230969308238_1.jpg"
+              },
+              "blocks": {}
+            },
+            "heading_3HFXPn": {
+              "type": "heading",
+              "settings": {
+                "text": "Different Sizes Available",
+                "heading_size": "h5",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "button_xMf8KR": {
+              "type": "button",
+              "settings": {
+                "text": "Show More",
+                "url": "shopify://pages/button-size",
+                "open_in_new_tab": false,
+                "style": "outline",
+                "background": "",
+                "text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_EzRWre",
+            "heading_3HFXPn",
+            "button_xMf8KR"
+          ]
+        },
+        "multi_column_column_kgDWw3": {
+          "type": "_multi-column-column",
+          "settings": {
+            "color_scheme": "",
+            "text_alignment": "left"
+          },
+          "blocks": {
+            "image_feD3rk": {
+              "type": "image",
+              "settings": {
+                "image": "shopify://shop_images/Untitled_design_3_2666d00d-eaac-4b51-a63c-de2b80476903.png"
+              },
+              "blocks": {}
+            },
+            "heading_kJFw6z": {
+              "type": "heading",
+              "settings": {
+                "text": "Elastic Band",
+                "heading_size": "h5",
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_UnyQz7": {
+              "type": "rich-text",
+              "disabled": true,
+              "settings": {
+                "text": "<p>Use Clothing Pilers in your suitcase to keep dress shirts, tops and dresses ready-to-wear.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_feD3rk",
+            "heading_kJFw6z",
+            "rich_text_UnyQz7"
+          ]
+        },
+        "section-header": {
+          "type": "_section-header",
+          "static": true,
+          "settings": {
+            "subheading": "",
+            "title": "Utility Patent",
+            "content": "<p>Our extender is utility patented in Canada, in the US, in Thailand, in China, in Japan, in UK, in Europe and patent pending in other countries.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "link",
+            "text_alignment": "left",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "multi_column_column_44khqL",
+        "multi_column_column_eRJGzY",
+        "multi_column_column_kgDWw3"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_internal_borders": false,
+        "add_horizontal_spacing": true,
+        "add_top_spacing": true,
+        "add_bottom_spacing": true,
+        "items_per_row": 3,
+        "stack_on_mobile": false,
+        "stack_on_desktop": true,
+        "column_spacing": "md",
+        "row_spacing": "md"
+      }
+    },
+    "video_ayjQt8": {
+      "type": "video",
+      "blocks": {
+        "play_button_KeHcVp": {
+          "type": "play_button",
+          "settings": {
+            "position": "middle_center",
+            "show_play_cursor": false
+          }
+        },
+        "heading_xTkFq6": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "mobile_heading_tag": "h1",
+            "desktop_heading_tag": "sm:h3",
+            "position": "middle_center",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "play_button_KeHcVp",
+        "heading_xTkFq6"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "allow_transparent_header": true,
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "md",
+        "mobile_video_size": "md",
+        "video": "shopify://files/videos/Waist Extender Demo.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+      }
+    },
+    "dynamic_grid_FDAmrc": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_RhA4e9": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "right",
+            "desktop_row_start": 2,
+            "desktop_column_start": 4,
+            "desktop_column_end": 15,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_3qFzTM": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Redefining Comfort, Responsibly",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 6,
+                "font_size_line_height": 0.9,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_3qFzTM"
+          ]
+        },
+        "dynamic_grid_item_FLxUa3": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 3,
+            "desktop_column_start": 8,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 5,
+            "mobile_column_start": 3,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_kz9bg7": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Made from 15% recycled resin and assembled in Montreal, our extenders prove that sustainability can be both stylish and functional.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_kz9bg7"
+          ]
+        },
+        "dynamic_grid_item_NkiQJd": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 5,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 8,
+            "mobile_column_start": 1,
+            "mobile_column_end": 5,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": -5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_Rxjz7X": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Effortless Style, Unmatched Comfort",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 6,
+                "font_size_line_height": 0.9,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_Rxjz7X"
+          ]
+        },
+        "dynamic_grid_item_C6kxL9": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 6,
+            "desktop_column_start": 1,
+            "desktop_column_end": 8,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 9,
+            "mobile_column_start": 1,
+            "mobile_column_end": 4,
+            "mobile_horizontal_adjustment": 1.5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_LWqhQj": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p><em>Expand your collar up to 1.5” (40 mm) without compromising on elegance. Our elastic bands hold up to 9 lbs of pressure while blending seamlessly with your outfit.</em></p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_LWqhQj"
+          ]
+        },
+        "dynamic_grid_item_M6eqJw": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 7,
+            "desktop_column_start": 6,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 4,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 12,
+            "mobile_column_start": 4,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0.5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_g6Yy4X": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Luxury Meets Sustainability",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 6,
+                "font_size_line_height": 0.9,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_g6Yy4X"
+          ]
+        },
+        "dynamic_grid_item_WDnEME": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 8,
+            "desktop_column_start": 7,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 13,
+            "mobile_column_start": 4,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0.5,
+            "mobile_vertical_adjustment": 5,
+            "parallax_speed": 0,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "rich_text_Fp7yxU": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Thoughtful packaging made from recycled materials, designed for a premium unboxing experience. Because sustainability should feel as good as it looks.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_Fp7yxU"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_RhA4e9",
+        "dynamic_grid_item_FLxUa3",
+        "dynamic_grid_item_NkiQJd",
+        "dynamic_grid_item_C6kxL9",
+        "dynamic_grid_item_M6eqJw",
+        "dynamic_grid_item_WDnEME"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-3",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "products_per_page": 36,
+        "products_per_row_mobile": 2,
+        "products_per_row_desktop": 4,
+        "show_product_card_size_selector": true,
+        "quick_links_menu": "",
+        "filter_layout": "drawer",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false,
+        "swatch_selector_size": "lg"
+      }
+    }
+  },
+  "order": [
+    "text_with_fixed_background_xbNdaV",
+    "banner",
+    "text_with_fixed_background_CHJYnh",
+    "featured_product_list_C4JyLg",
+    "featured_product_list_FfLrUa",
+    "featured_product_list_9nc73B",
+    "featured_product_list_gPczVJ",
+    "featured_product_list_teppRg",
+    "featured_product_list_6JDrGg",
+    "featured_product_list_LizRz7",
+    "dynamic_grid_RzPCTP",
+    "hot_spots_qJeeCT",
+    "multi_column_ycYHPB",
+    "video_ayjQt8",
+    "dynamic_grid_FDAmrc",
+    "main"
+  ]
+}

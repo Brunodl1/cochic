@@ -1,0 +1,94 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "layout": "plain",
+        "show_description": false,
+        "collection_title_size": "h4",
+        "content_position": "place-self-center",
+        "background_color_scheme": "",
+        "image": "shopify://shop_images/Untitled_design_1_b45f9227-ad29-4969-bf07-3d106540138e.png",
+        "image_size": "auto",
+        "quick_navigation_menu": ""
+      }
+    },
+    "rich_text_kyC7MH": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_bFM4kz": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Each COCHIC Outlet Extender is made with an unused surplus button already produced for one of our collections. Materials, colours, sizes, and finishes vary according to availability. Every selection is limited and available only while supplies last.</p>"
+          }
+        },
+        "spacer_rKFEKU": {
+          "type": "spacer",
+          "settings": {
+            "desktop_spacing": 60,
+            "mobile_spacing": 30
+          }
+        },
+        "richtext_FY8NNt": {
+          "type": "richtext",
+          "settings": {
+            "text": "<h5><strong>The Original Prototype, Brought Back with Purpose</strong></h5>"
+          }
+        },
+        "richtext_Qh6mHw": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>In 2001, our founder began working on an idea with her father: how could an elegantly buttoned shirt collar feel more comfortable?</p><p>At home, she created the first prototype using a four-hole button and a piece of elastic. That handmade prototype was never commercialized. Instead, it became the starting point for the development of the refined, patented COCHIC extender recognized today as the signature innovation of our brand.</p><p>Over the years, millions of patented COCHIC extenders have been sold or given away around the world, including nearly 1.5 million over the past five years.</p><p>The COCHIC Outlet Collection revisits that first homemade prototype with a specific purpose.</p><p>These Outlet Extenders are created using unused surplus buttons already produced for our collections, including buttons originally selected for our made-to-measure shirts. Their materials, colours, sizes, and finishes vary according to availability, from Australian mother-of-pearl to recycled materials and other quality buttons.</p><p>This simple button-and-elastic model is not presented as a new invention. Anyone with a four-hole button and a piece of elastic can experiment with making one at home. For COCHIC, offering it only makes sense as an Outlet product: a way to give existing overstock buttons a purpose instead of leaving them unused.</p><p>If you prefer a ready-made version, explore the COCHIC Outlet Extenders available below. Each one gives an existing button a new purpose, is offered at a more accessible price, and is available only while supplies last.</p><p>One button. One elastic. The original prototype, brought back with purpose.</p><p><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_bFM4kz",
+        "spacer_rKFEKU",
+        "richtext_FY8NNt",
+        "richtext_Qh6mHw"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "color_scheme": "",
+        "products_per_page": 36,
+        "products_per_row_mobile": 2,
+        "products_per_row_desktop": 4,
+        "show_product_card_size_selector": true,
+        "quick_links_menu": "",
+        "filter_layout": "drawer",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false,
+        "swatch_selector_size": "sm"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "rich_text_kyC7MH",
+    "main"
+  ]
+}

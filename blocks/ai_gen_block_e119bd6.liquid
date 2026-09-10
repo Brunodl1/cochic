@@ -1,0 +1,899 @@
+{% doc %}
+  @prompt
+    STRUCTURE TECHNIQUE UNIVERSELLE — PAGE RSE
+    
+    Créer une page RSE hautement personnalisable, basée sur un système de sections modulaires partageant les mêmes composants techniques, afin de garantir cohérence visuelle, lisibilité et évolutivité.
+    
+    🧱 STRUCTURE TECHNIQUE UNIVERSELLE
+    
+    (POUR TOUTES LES SECTIONS)
+    
+    Chaque section de la page doit pouvoir intégrer, activer ou désactiver les éléments suivants :
+    
+    1. Hiérarchie de texte
+    
+    Champ Titre principal (H2)
+    
+    Champ Sous-titre optionnel (H3)
+    
+    Champ Texte éditorial libre (paragraphes multiples)
+    
+    Gestion fine de l’espacement entre titres, sous-titres et paragraphes
+    
+    2. Icône (optionnelle – niveau section)
+    
+    Icône activable / désactivable
+    
+    Style d’icône :
+    
+    ligne
+    
+    monochrome
+    
+    Position personnalisable :
+    
+    au-dessus du titre
+    
+    à gauche du titre
+    
+    à droite du titre
+    
+    Taille ajustable
+    
+    Alignement libre (gauche / centre)
+    
+    3. Image(s) (optionnelles – niveau section)
+    
+    0, 1 ou 2 images par section
+    
+    Images entièrement optionnelles
+    
+    Paramètres personnalisables :
+    
+    taille
+    
+    ratio
+    
+    position (avant / après le texte, à côté)
+    
+    Possibilité de désactiver totalement les images pour une section
+    
+    Aucun effet visuel décoratif imposé (sobriété par défaut)
+    
+    4. Sous-parties internes (NOUVEAU – RÉPÉTABLE)
+    
+    Chaque section doit pouvoir contenir des sous-parties multiples, gérées dans un groupe répétable.
+    
+    Structure de chaque sous-partie :
+    
+    Champ Titre de sous-partie (H3 ou H4 selon hiérarchie choisie)
+    
+    Champ Texte de sous-partie (texte riche)
+    
+    Support des listes à puces dans les sous-parties
+    
+    Paramètres globaux pour les sous-parties :
+    
+    Nombre de sous-parties : illimité
+    
+    Espacement :
+    
+    avant le groupe de sous-parties
+    
+    entre chaque sous-partie (mobile / desktop)
+    
+    Alignement du texte hérité de la section parente
+    
+    Aucun divider entre sous-parties par défaut
+    
+    5. Icône ou image par sous-partie (OPTIONNEL)
+    
+    Chaque sous-partie doit pouvoir, de manière optionnelle, intégrer :
+    
+    Icône de sous-partie
+    
+    Icône activable / désactivable
+    
+    Style :
+    
+    ligne
+    
+    monochrome
+    
+    Position :
+    
+    au-dessus du titre de sous-partie
+    
+    à gauche du titre
+    
+    Taille et espacement réglables
+    
+    Hérite des règles de sobriété de la section parente
+    
+    Image de sous-partie
+    
+    0 ou 1 image par sous-partie
+    
+    Image entièrement optionnelle
+    
+    Paramètres :
+    
+    taille
+    
+    ratio
+    
+    position (au-dessus ou après le texte de la sous-partie)
+    
+    Désactivée par défaut
+    
+    Aucune image obligatoire
+    
+    6. Mise en valeur de données clés
+    
+    Bloc optionnel pour :
+    
+    chiffre clé
+    
+    date
+    
+    pourcentage
+    
+    Paramètres :
+    
+    taille du texte
+    
+    encadré ou non
+    
+    position dans la section
+    
+    Doit rester discret et cohérent avec l’ensemble de la page
+    
+    7. Listes & éléments structurants
+    
+    Support des listes à puces simples
+    
+    Support des listes courtes (exemples, matières, actions)
+    
+    Alignement cohérent avec le texte principal
+    
+    Style sobre, sans pictogrammes additionnels par défaut
+    
+    8. Divider / séparation de sections
+    
+    Divider activable / désactivable
+    
+    Style minimal :
+    
+    ligne fine
+    
+    espacement
+    
+    Position configurable :
+    
+    avant la section
+    
+    après la section
+    
+    Aucun séparateur décoratif imposé
+    
+    9. Layout & espacement
+    
+    Largeur de section ajustable
+    
+    Marges verticales personnalisables
+    
+    Possibilité d’alterner :
+    
+    sections très aérées
+    
+    sections plus denses
+    
+    Grille responsive (desktop / mobile)
+    
+    10. Logiques d’accessibilité & lisibilité
+    
+    Contraste élevé texte / fond
+    
+    Typographie lisible et hiérarchisée
+    
+    Pas de surcharge visuelle
+    
+    Lecture fluide sur mobile
+    
+    ⚙️ PRINCIPES DE CONCEPTION À RESPECTER
+    
+    Le texte reste toujours l’élément central
+    
+    Les icônes et images sont fonctionnelles, jamais décoratives
+    
+    Les sous-parties doivent fonctionner :
+    
+    avec texte seul
+    
+    ou texte + icône
+    
+    ou texte + image
+    
+    Aucun élément obligatoire : tout est activable / désactivable
+    
+    La structure doit rester sobre, crédible et durable
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-csr-section-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    padding-top: {{ block.settings.spacing_top }}px;
+    padding-bottom: {{ block.settings.spacing_bottom }}px;
+  }
+
+  .ai-csr-section__container-{{ ai_gen_id }} {
+    max-width: {{ block.settings.section_width }}px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .ai-csr-section__header-{{ ai_gen_id }} {
+    display: flex;
+    {% if block.settings.icon_position == 'above' %}
+      align-items: center;
+      flex-direction: column;
+    {% else %}
+      align-items: flex-start;
+      flex-direction: row;
+    {% endif %}
+    gap: {{ block.settings.icon_spacing }}px;
+    margin-bottom: {{ block.settings.header_spacing }}px;
+    {% if block.settings.text_align == 'center' %}
+      justify-content: center;
+      text-align: center;
+    {% elsif block.settings.text_align == 'left' %}
+      justify-content: flex-start;
+      text-align: left;
+    {% endif %}
+  }
+
+  .ai-csr-section__icon-{{ ai_gen_id }} {
+    flex-shrink: 0;
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    {% if block.settings.icon_position == 'right' %}
+      order: 2;
+    {% endif %}
+  }
+
+  .ai-csr-section__icon-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    stroke: {{ block.settings.icon_color }};
+    {% if block.settings.icon_style == 'line' %}
+      fill: none;
+      stroke-width: 1.5;
+    {% else %}
+      fill: {{ block.settings.icon_color }};
+      stroke-width: 0;
+    {% endif %}
+  }
+
+  .ai-csr-section__header-content-{{ ai_gen_id }} {
+    flex-grow: 1;
+  }
+
+  .ai-csr-section__title-{{ ai_gen_id }} {
+    margin: 0 0 {{ block.settings.title_spacing }}px;
+    color: {{ block.settings.title_color }};
+    font-size: {{ block.settings.title_size }}px;
+    line-height: 1.2;
+  }
+
+  .ai-csr-section__subtitle-{{ ai_gen_id }} {
+    margin: 0 0 {{ block.settings.subtitle_spacing }}px;
+    color: {{ block.settings.subtitle_color }};
+    font-size: {{ block.settings.subtitle_size }}px;
+    line-height: 1.3;
+  }
+
+  .ai-csr-section__text-{{ ai_gen_id }} {
+    margin-bottom: {{ block.settings.text_spacing }}px;
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.text_size }}px;
+    line-height: 1.6;
+  }
+
+  .ai-csr-section__text-{{ ai_gen_id }} p {
+    margin: 0 0 {{ block.settings.paragraph_spacing }}px;
+  }
+
+  .ai-csr-section__text-{{ ai_gen_id }} p:last-child {
+    margin-bottom: 0;
+  }
+
+  .ai-csr-section__text-{{ ai_gen_id }} ul,
+  .ai-csr-section__text-{{ ai_gen_id }} ol {
+    margin: 0 0 {{ block.settings.paragraph_spacing }}px;
+    padding-left: 20px;
+  }
+
+  .ai-csr-section__text-{{ ai_gen_id }} li {
+    margin-bottom: 8px;
+  }
+
+  .ai-csr-section__images-{{ ai_gen_id }} {
+    display: flex;
+    gap: {{ block.settings.image_gap }}px;
+    margin-bottom: {{ block.settings.images_spacing }}px;
+    {% if block.settings.image_position == 'before' %}
+      order: -1;
+    {% endif %}
+  }
+
+  .ai-csr-section__image-wrapper-{{ ai_gen_id }} {
+    flex: 1;
+    overflow: hidden;
+    border-radius: {{ block.settings.image_border_radius }}px;
+  }
+
+  .ai-csr-section__image-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+    aspect-ratio: {{ block.settings.image_ratio }};
+    object-fit: cover;
+  }
+
+  .ai-csr-section__key-data-{{ ai_gen_id }} {
+    display: inline-block;
+    font-size: {{ block.settings.key_data_size }}px;
+    font-weight: 600;
+    color: {{ block.settings.key_data_color }};
+    margin-bottom: {{ block.settings.key_data_spacing }}px;
+    {% if block.settings.key_data_boxed %}
+      padding: 12px 20px;
+      border: 2px solid {{ block.settings.key_data_color }};
+      border-radius: 8px;
+    {% endif %}
+  }
+
+  .ai-csr-section__divider-{{ ai_gen_id }} {
+    height: 1px;
+    background-color: {{ block.settings.divider_color }};
+    margin: {{ block.settings.divider_spacing }}px 0;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-csr-section__title-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.title_size }}px * 0.8);
+    }
+
+    .ai-csr-section__subtitle-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.subtitle_size }}px * 0.9);
+    }
+
+    .ai-csr-section__images-{{ ai_gen_id }} {
+      flex-direction: column;
+    }
+  }
+{% endstyle %}
+
+<ai-csr-section-{{ ai_gen_id }} class="ai-csr-section-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  {% if block.settings.show_divider_before %}
+    <div class="ai-csr-section__divider-{{ ai_gen_id }}"></div>
+  {% endif %}
+
+  <div class="ai-csr-section__container-{{ ai_gen_id }}">
+    {% if block.settings.show_icon and block.settings.icon != blank or block.settings.title != blank or block.settings.subtitle != blank %}
+      <div class="ai-csr-section__header-{{ ai_gen_id }}">
+        {% if block.settings.show_icon and block.settings.icon != blank %}
+          <div class="ai-csr-section__icon-{{ ai_gen_id }}">
+            {{ block.settings.icon }}
+          </div>
+        {% endif %}
+
+        <div class="ai-csr-section__header-content-{{ ai_gen_id }}">
+          {% if block.settings.title != blank %}
+            <h2 class="ai-csr-section__title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
+          {% endif %}
+
+          {% if block.settings.subtitle != blank %}
+            <h3 class="ai-csr-section__subtitle-{{ ai_gen_id }}">{{ block.settings.subtitle }}</h3>
+          {% endif %}
+        </div>
+      </div>
+    {% endif %}
+
+    {% if block.settings.key_data != blank %}
+      <div class="ai-csr-section__key-data-{{ ai_gen_id }}">{{ block.settings.key_data }}</div>
+    {% endif %}
+
+    {% if block.settings.show_image_1 and block.settings.image_1 != blank or block.settings.show_image_2 and block.settings.image_2 != blank %}
+      <div class="ai-csr-section__images-{{ ai_gen_id }}">
+        {% if block.settings.show_image_1 and block.settings.image_1 != blank %}
+          <div class="ai-csr-section__image-wrapper-{{ ai_gen_id }}">
+            <img
+              src="{{ block.settings.image_1 | image_url: width: 1200 }}"
+              alt="{{ block.settings.image_1.alt | escape }}"
+              loading="lazy"
+              width="{{ block.settings.image_1.width }}"
+              height="{{ block.settings.image_1.height }}"
+              class="ai-csr-section__image-{{ ai_gen_id }}"
+            >
+          </div>
+        {% endif %}
+
+        {% if block.settings.show_image_2 and block.settings.image_2 != blank %}
+          <div class="ai-csr-section__image-wrapper-{{ ai_gen_id }}">
+            <img
+              src="{{ block.settings.image_2 | image_url: width: 1200 }}"
+              alt="{{ block.settings.image_2.alt | escape }}"
+              loading="lazy"
+              width="{{ block.settings.image_2.width }}"
+              height="{{ block.settings.image_2.height }}"
+              class="ai-csr-section__image-{{ ai_gen_id }}"
+            >
+          </div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    {% if block.settings.text != blank %}
+      <div class="ai-csr-section__text-{{ ai_gen_id }}">{{ block.settings.text }}</div>
+    {% endif %}
+  </div>
+
+  {% if block.settings.show_divider_after %}
+    <div class="ai-csr-section__divider-{{ ai_gen_id }}"></div>
+  {% endif %}
+</ai-csr-section-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class AiCsrSection{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.style.display = 'block';
+      }
+    }
+
+    customElements.define('ai-csr-section-{{ ai_gen_id }}', AiCsrSection{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "CSR section",
+  "tag": null,
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "section_width",
+      "label": "Section width",
+      "min": 600,
+      "max": 1400,
+      "step": 50,
+      "unit": "px",
+      "default": 1000
+    },
+    {
+      "type": "range",
+      "id": "spacing_top",
+      "label": "Top spacing",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "spacing_bottom",
+      "label": "Bottom spacing",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "header",
+      "content": "Section icon"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icon",
+      "label": "Show icon",
+      "default": false
+    },
+    {
+      "type": "html",
+      "id": "icon",
+      "label": "Icon SVG code"
+    },
+    {
+      "type": "select",
+      "id": "icon_style",
+      "label": "Icon style",
+      "options": [
+        {
+          "value": "line",
+          "label": "Line"
+        },
+        {
+          "value": "monochrome",
+          "label": "Monochrome"
+        }
+      ],
+      "default": "line"
+    },
+    {
+      "type": "select",
+      "id": "icon_position",
+      "label": "Icon position",
+      "options": [
+        {
+          "value": "above",
+          "label": "Above title"
+        },
+        {
+          "value": "left",
+          "label": "Left of title"
+        },
+        {
+          "value": "right",
+          "label": "Right of title"
+        }
+      ],
+      "default": "above"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Icon size",
+      "min": 20,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "icon_spacing",
+      "label": "Icon spacing",
+      "min": 5,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon color",
+      "default": "#000000"
+    },
+    {
+      "type": "header",
+      "content": "Title"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Title size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "title_spacing",
+      "label": "Title spacing",
+      "min": 0,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Subtitle"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "subtitle",
+      "label": "Subtitle"
+    },
+    {
+      "type": "range",
+      "id": "subtitle_size",
+      "label": "Subtitle size",
+      "min": 14,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Subtitle color",
+      "default": "#666666"
+    },
+    {
+      "type": "range",
+      "id": "subtitle_spacing",
+      "label": "Subtitle spacing",
+      "min": 0,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "header_spacing",
+      "label": "Header bottom spacing",
+      "min": 0,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": "Key data"
+    },
+    {
+      "type": "text",
+      "id": "key_data",
+      "label": "Key data"
+    },
+    {
+      "type": "range",
+      "id": "key_data_size",
+      "label": "Key data size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 32
+    },
+    {
+      "type": "color",
+      "id": "key_data_color",
+      "label": "Key data color",
+      "default": "#000000"
+    },
+    {
+      "type": "checkbox",
+      "id": "key_data_boxed",
+      "label": "Show box around key data",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "key_data_spacing",
+      "label": "Key data spacing",
+      "min": 0,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Main text"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Text size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#333333"
+    },
+    {
+      "type": "range",
+      "id": "text_spacing",
+      "label": "Text bottom spacing",
+      "min": 0,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "paragraph_spacing",
+      "label": "Paragraph spacing",
+      "min": 5,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Section images"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image_1",
+      "label": "Show image 1",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Image 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image_2",
+      "label": "Show image 2",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image 2"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Images position",
+      "options": [
+        {
+          "value": "before",
+          "label": "Before text"
+        },
+        {
+          "value": "after",
+          "label": "After text"
+        }
+      ],
+      "default": "after"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "label": "Image ratio",
+      "options": [
+        {
+          "value": "16/9",
+          "label": "16:9"
+        },
+        {
+          "value": "4/3",
+          "label": "4:3"
+        },
+        {
+          "value": "1/1",
+          "label": "1:1"
+        },
+        {
+          "value": "3/4",
+          "label": "3:4"
+        }
+      ],
+      "default": "16/9"
+    },
+    {
+      "type": "range",
+      "id": "image_gap",
+      "label": "Gap between images",
+      "min": 0,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "label": "Image border radius",
+      "min": 0,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "images_spacing",
+      "label": "Images bottom spacing",
+      "min": 0,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": "Divider"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_divider_before",
+      "label": "Show divider before section",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_divider_after",
+      "label": "Show divider after section",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Divider color",
+      "default": "#e0e0e0"
+    },
+    {
+      "type": "range",
+      "id": "divider_spacing",
+      "label": "Divider spacing",
+      "min": 20,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    }
+  ],
+  "presets": [
+    {
+      "name": "CSR section"
+    }
+  ]
+}
+{% endschema %}

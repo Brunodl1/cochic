@@ -1,0 +1,443 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "color_scheme": "",
+        "products_per_page": 36,
+        "products_per_row_mobile": 2,
+        "products_per_row_desktop": 4,
+        "show_product_card_size_selector": true,
+        "quick_links_menu": "",
+        "filter_layout": "drawer",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false,
+        "swatch_selector_size": "lg"
+      }
+    },
+    "dynamic_grid_kpW9Qi": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_UcDaBe": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_QDTNPy": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/1_ea0468b6-a85a-4dd6-9c3d-d9c4a075b0fa.png",
+                "caption": ""
+              },
+              "blocks": {}
+            },
+            "image_with_caption_AwpLhH": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/2_ab7055c6-d75a-456c-95c3-f6eb92d4b573.png",
+                "caption": ""
+              },
+              "blocks": {}
+            },
+            "image_with_caption_BwDmeR": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/3_93bbe15a-14de-40dc-b080-80d466a6986a.png",
+                "caption": ""
+              },
+              "blocks": {}
+            },
+            "image_with_caption_Qcfj9g": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/4_3fc4f520-cfc7-49cd-a982-19dfa2673f5e.png",
+                "caption": ""
+              },
+              "blocks": {}
+            },
+            "image_with_caption_HEyW8X": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/5_c5208065-bb69-4d62-81c0-974f99b35072.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_QDTNPy",
+            "image_with_caption_AwpLhH",
+            "image_with_caption_BwDmeR",
+            "image_with_caption_Qcfj9g",
+            "image_with_caption_HEyW8X"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_UcDaBe"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": false,
+        "add_horizontal_spacing": false,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "text_with_fixed_background_xbNdaV": {
+      "type": "text-with-fixed-background",
+      "blocks": {
+        "content_xQr4Dg": {
+          "type": "content",
+          "settings": {
+            "color_scheme": "",
+            "content_position": "md:place-self-end-start",
+            "title": "a COCHIC lifestyle",
+            "content": "<p>The Pliio Clothing Filer is here to rescue your messy piles of clothes. Simply fold your golf shirts, t-shirts, long sleeve tops and sweaters around a Clothing Piler and it will be perfectly folded and easy to manage. You will feel as if you're visiting your own boutique when you open you closet every morning!</p>",
+            "indent_heading": false
+          }
+        }
+      },
+      "block_order": [
+        "content_xQr4Dg"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify://shop_images/Untitled_design.jpg",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "layout": "plain",
+        "show_description": true,
+        "collection_title_size": "h5",
+        "content_position": "place-self-center",
+        "background_color_scheme": "",
+        "image": "shopify://shop_images/Untitled_design_1_b45f9227-ad29-4969-bf07-3d106540138e.png",
+        "image_size": "auto",
+        "quick_navigation_menu": "pliio-menu"
+      }
+    },
+    "dynamic_grid_FDAmrc": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_RhA4e9": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 4,
+            "desktop_column_end": 15,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_3qFzTM": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Sustainability of Pashmina",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 7.5,
+                "font_size_line_height": 0.9,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_3qFzTM"
+          ]
+        },
+        "dynamic_grid_item_FLxUa3": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 3,
+            "desktop_column_start": 4,
+            "desktop_column_end": 13,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 2,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 1.5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_kz9bg7": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Our pashminas embody a deep commitment to <strong>sustainability and social responsibility</strong>, addressing key Sustainable Development Goals. By integrating ethical practices and eco-conscious methods at every stage, we create timeless products that contribute to a fairer, greener, and more inclusive future.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_kz9bg7"
+          ]
+        },
+        "dynamic_grid_item_qrLKPy": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 5,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 5,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_kFtA6E": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/Pashminas_newsletter_2.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_kFtA6E"
+          ]
+        },
+        "dynamic_grid_item_NkiQJd": {
+          "type": "_dynamic-grid-item",
+          "disabled": true,
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 5,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 8,
+            "mobile_column_start": 1,
+            "mobile_column_end": 5,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_Rxjz7X": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Designed for a Greener Future",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 7.5,
+                "font_size_line_height": 0.9,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_Rxjz7X"
+          ]
+        },
+        "dynamic_grid_item_C6kxL9": {
+          "type": "_dynamic-grid-item",
+          "disabled": true,
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 6,
+            "desktop_column_start": 1,
+            "desktop_column_end": 8,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 10,
+            "mobile_column_start": 1,
+            "mobile_column_end": 4,
+            "mobile_horizontal_adjustment": 1.5,
+            "mobile_vertical_adjustment": -5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_LWqhQj": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Every Pliio product supports waste reduction and a more sustainable way to stay organized. Practical, durable, and eco-conscious.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_LWqhQj"
+          ]
+        },
+        "dynamic_grid_item_M6eqJw": {
+          "type": "_dynamic-grid-item",
+          "disabled": true,
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 7,
+            "desktop_column_start": 7,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": -2,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 12,
+            "mobile_column_start": 5,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": -2.5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_g6Yy4X": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Less Waste, More Impact",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 7.5,
+                "font_size_line_height": 0.9,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_g6Yy4X"
+          ]
+        },
+        "dynamic_grid_item_WDnEME": {
+          "type": "_dynamic-grid-item",
+          "disabled": true,
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 8,
+            "desktop_column_start": 7,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 13,
+            "mobile_column_start": 5,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0.5,
+            "mobile_vertical_adjustment": 5,
+            "parallax_speed": 0,
+            "parallax_direction": "horizontal"
+          },
+          "blocks": {
+            "rich_text_Fp7yxU": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>By choosing Pliio, you're embracing circular design, keeping valuable resources in use while reducing environmental impact.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_Fp7yxU"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_RhA4e9",
+        "dynamic_grid_item_FLxUa3",
+        "dynamic_grid_item_qrLKPy",
+        "dynamic_grid_item_NkiQJd",
+        "dynamic_grid_item_C6kxL9",
+        "dynamic_grid_item_M6eqJw",
+        "dynamic_grid_item_WDnEME"
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    }
+  },
+  "order": [
+    "dynamic_grid_kpW9Qi",
+    "main",
+    "text_with_fixed_background_xbNdaV",
+    "banner",
+    "dynamic_grid_FDAmrc"
+  ]
+}

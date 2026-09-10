@@ -1,0 +1,259 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h5"
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "icons_with_text_7kUTtH": {
+          "type": "icons_with_text",
+          "settings": {
+            "items_per_row": 3,
+            "icon_1": "shopify://shop_images/free-check-mark-icon-3279-thumb.png",
+            "icon_1_width": 24,
+            "icon_1_text": "Adjustable comfort",
+            "icon_2": "shopify://shop_images/free-check-mark-icon-3279-thumb.png",
+            "icon_2_width": 24,
+            "icon_2_text": "Versatile fit",
+            "icon_3": "shopify://shop_images/free-check-mark-icon-3279-thumb.png",
+            "icon_3_width": 24,
+            "icon_3_text": "Customer-approved",
+            "icon_4_width": 24,
+            "icon_4_text": ""
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "hide_sold_out_variants": false,
+            "separate_options": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "swatch_selector_size": "lg",
+            "block_selector_style": "outline",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "uppercase_title": false
+          }
+        },
+        "accordion_iVQJqY": {
+          "type": "accordion",
+          "settings": {
+            "title": "<strong>Details & Features</strong>",
+            "content": "<ul><li>This set includes a pack of 2 collar stays, 1 pant waist extender and 1 collar extender.</li><li>Come with black and white elastic bands, to blend seamlessly with your shirt.</li><li>All extenders fit standard buttonholes.</li><li>Extends your collar by up to 1½\" (40 mm) for a breathable, comfortable fit.</li><li>Elastic button closure (waist): extends up to 1 3/4\" (44 mm)</li><li>Fitted with a sleek ⅜\" (10.2 mm) resin button for compatibility with standard buttonholes.</li><li>Button diameter (waist): 5/8\" (15.3 mm)</li><li>Collar Stay Size: 2.2\" x .39\" (5.5 cm x 1 cm)</li><li>Made from high-quality, non-rusting resin that’s safe for both shirts and washing machines.<br/></li><li>Features a durable elastic closure that retains its shape over time.<br/></li><li>Original globally patented design—COCHIC® is the inventor of the collar extender.<br/></li><li>Proudly designed and manufactured in Canada by a certified Women-Owned business.<br/></li><li>Comes in elegant packaging, ideal for thoughtful gifting.<br/><br/></li></ul>",
+            "uppercase_title": true,
+            "icon": "picto-ticket-star",
+            "page": ""
+          }
+        },
+        "accordion_ijpfXU": {
+          "type": "accordion",
+          "settings": {
+            "title": "<strong>Care & Tips</strong>",
+            "content": "<ul><li>Can remain on the shirt during washing without risk of rust or damage.<br/></li><li>Do not dry at high temperatures to prolong the life of the elastic.<br/></li><li>Store it in its original packaging or a small box to avoid losing it.<br/></li><li>Choose the elastic band that matches your shirt for an invisible result.<br/></li><li>An idea that is both elegant and practical for professionals, travelers, or anyone who values discreet comfort.</li></ul>",
+            "uppercase_title": true,
+            "icon": "picto-checked",
+            "page": ""
+          }
+        },
+        "accordion_L3GHyj": {
+          "type": "accordion",
+          "settings": {
+            "title": "<strong>Shipping</strong>",
+            "content": "<ul><li>Free shipping on all orders over $25<br/></li><li>Standard delivery times:<br/></li><li>Canada: 2–5 business days<br/></li><li>United States: 3–5 business days<br/></li><li>International: 5–10 business days<br/></li><li>Express shipping available at an additional cost (delivery times may vary depending on destination)</li></ul><p><br/></p>",
+            "uppercase_title": true,
+            "icon": "picto-truck",
+            "page": ""
+          }
+        },
+        "accordion_mXgY9a": {
+          "type": "accordion",
+          "settings": {
+            "title": "<strong>Returns & Exchanges</strong>",
+            "content": "<ul><li>Returns and exchanges accepted within 30 days of receipt<br/></li><li>Items must be in their original condition, unworn, unwashed, and in original packaging<br/></li><li>Return shipping costs are the customer’s responsibility (unless the return is due to an error on our part)<br/></li><li>Shipping fees for exchanges are also the customer’s responsibility</li><li>Exchanges can also be made in person at our workshop: 4020 Saint-Ambroise Street, Suite 492, Montreal, Quebec, H4C 2C7, Canada<br/></li></ul>",
+            "uppercase_title": true,
+            "icon": "picto-return-box",
+            "page": ""
+          }
+        },
+        "pickup_availability_anH4QH": {
+          "type": "pickup_availability",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "show_quantity_selector": true,
+            "add_quantity_selector_spacing": true,
+            "atc_button_style": "solid",
+            "atc_button_background": "#0058ed",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "conversion_bear_trust_badges_widget_nnM8Wm": {
+          "type": "shopify://apps/conversion-bear-trust-badges/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "badges",
+        "price",
+        "icons_with_text_7kUTtH",
+        "rating",
+        "payment_terms",
+        "separator",
+        "variant_picker",
+        "description",
+        "accordion_iVQJqY",
+        "accordion_ijpfXU",
+        "accordion_L3GHyj",
+        "accordion_mXgY9a",
+        "pickup_availability_anH4QH",
+        "buy_buttons",
+        "conversion_bear_trust_badges_widget_nnM8Wm"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "allow_transparent_header": false,
+        "transparent_header_use_primary_colors": false,
+        "add_top_spacing": true,
+        "show_sticky_add_to_cart": true,
+        "product_media_size": 50,
+        "content_alignment": "left",
+        "desktop_media_layout": "carousel",
+        "desktop_carousel_controls": "lines",
+        "mobile_controls": "lines",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "blocks": {
+        "section-header": {
+          "type": "_section-header",
+          "static": true,
+          "settings": {
+            "subheading": "",
+            "title": "Related products",
+            "content": "",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "left",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "settings": {
+        "color_scheme": "",
+        "stack_products": true,
+        "recommendations_count": 4,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 4,
+        "show_view_all_button": true,
+        "show_scrolling_bar": true
+      }
+    },
+    "174422003154188756": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_7Ue3zL": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "section-header": {
+          "type": "_section-header",
+          "disabled": true,
+          "static": true,
+          "settings": {
+            "subheading": "",
+            "title": "Header",
+            "content": "<p>Use this content to share information about your store and products.</p>",
+            "button_text": "",
+            "button_link": "",
+            "button_style": "outline",
+            "text_alignment": "left",
+            "heading_size": "h3",
+            "title_icon": "none",
+            "show_scrolling_title": false
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_7Ue3zL"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "add_vertical_spacing": true,
+        "add_horizontal_spacing": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "174422003154188756"
+  ]
+}

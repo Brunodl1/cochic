@@ -1,0 +1,371 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "faq_dUaW9P": {
+      "type": "faq",
+      "blocks": {
+        "category_9Jiyjj": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>Orders & Payments</strong>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_a8FRim": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What payment methods are accepted on COCHIC.com?</strong>",
+            "answer": "<p>We accept the following payment options for your convenience:<br/>• Credit cards: Visa, Mastercard, American Express<br/>• Online payments: PayPal, Apple Pay</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_iYKCTC": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Can I modify or cancel an order?</strong>",
+            "answer": "<p>Yes — as long as it hasn't been processed yet. Please contact us as soon as<br/>possible.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_UVXhdw": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Are taxes included in the prices?</strong>",
+            "answer": "<p>No. Taxes are calculated at checkout based on the shipping address.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_8KYVX8": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Is there a minimum purchase amount?</strong>",
+            "answer": "<p>No. You’re welcome to order just one accessory.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_HcHAT8": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Where do I enter a promo code?</strong>",
+            "answer": "<p>At checkout, enter your code in the designated field. The discount will apply<br/>automatically.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "category_XYeQFh": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>Shipping</strong>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_CT4TLf": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What are COCHIC's delivery times?</strong>",
+            "answer": "<p>What are COCHIC's delivery times?<br/>• Canada: 5–7 business days<br/>• USA: 5–10 days<br/>• Europe: 7–12 days<br/>• Rest of the world: 10–16 days<br/>You’ll receive a confirmation email with a tracking number once your order<br/>ships.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_YyqwGG": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Do you offer international shipping?</strong>",
+            "answer": "<p>Yes, and shipping fees are calculated at checkout based on destination. We<br/>regularly offer free shipping promotions.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_P64rwt": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How can I track my order?</strong>",
+            "answer": "<p>Check your customer account or refer to the tracking email sent after your order<br/>is shipped.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_cnFUc4": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Can I change the delivery address after placing my order?</strong>",
+            "answer": "<p>Yes, as long as your order hasn't been shipped. Contact us quickly.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "category_GwCKzq": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>Returns & Warranty</strong>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_wicAnX": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What is your return policy?</strong>",
+            "answer": "<p>eturns are accepted within 30 days of delivery. Items must be unused and in<br/>their original packaging.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_4zdzz6": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How do I return a product?</strong>",
+            "answer": "<p>Log in to your account, select the order, print your return label, and drop off the<br/>package</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_MXEr3Y": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Do you offer exchanges?</strong>",
+            "answer": "<p>Yes, for another size or color — subject to availability.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_PRdnHt": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What is your product warranty?</strong>",
+            "answer": "<p>What is your product warranty?<br/>90-day warranty for any manufacturing defect (excluding misuse or normal wear<br/>and tear).</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_aikpfi": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Are return shipping fees refunded?</strong>",
+            "answer": "<p>Yes, but only in cases of errors or defective products.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_yjdp3W": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>When will I receive my refund?</strong>",
+            "answer": "<p>Within 3 to 5 business days after we receive the return — additional delays may<br/>apply depending on your bank</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "category_3YywhQ": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>Customer Service & Contact</strong>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_qAHrEa": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How can I contact COCHIC?</strong>",
+            "answer": "<p>+1 888 596 5518 (Mon–Fri, 9am–5pm EST)<br/>Info@cochic.com<br/>Form: cochic.com/pages/contact-us</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_mBCF3r": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Response time?</strong>",
+            "answer": "<p>Within 24–48 business hours.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_dcNzf8": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Can I pick up my order in person?</strong>",
+            "answer": "<p>Yes! While COCHIC doesn’t have standalone retail stores, free pickup is available<br/>at our workshop located at4020 Rue Saint-Ambroise, suite 492, Montréal, H4C 2C7,<br/>Québec, Canada.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "category_QJDit4": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>Our Company & Commitments</strong>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_4anAkT": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What is COCHIC's mission?</strong>",
+            "answer": "<p>What is COCHIC's mission?<br/>To reinvent classic accessories with comfort, elegance, and innovation.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_ndxXwy": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>What are your ethical and sustainable practices?</strong>",
+            "answer": "<p>We prioritize local, artisan production, use eco-friendly materials, and support<br/>causes like Leucan and the Canadian Cancer Society.<br/>Click here to learn more about our commitments.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_q3GcmA": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Do you have a reseller program?</strong>",
+            "answer": "<p>Do you have a reseller program?<br/>Yes. Visit our Reseller Program page or contact us directly for more info.<br/>Security & Data Protection</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "category_QiP7AC": {
+          "type": "category",
+          "settings": {
+            "title": "<strong>Security & Data Protection</strong>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_Bq7MPy": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Is my data secure?</strong>",
+            "answer": "<p>Yes — we use SSL encryption. Your credit card details are never stored.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_9qz4AR": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How do I reset my password?</strong>",
+            "answer": "<p>Click “Forgot Password?” on the login page.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_H67wFW": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>Is your website mobile/tablet-friendly?</strong>",
+            "answer": "<p>Yes, it’s optimized for all devices.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        },
+        "question_8Ck6qQ": {
+          "type": "question",
+          "settings": {
+            "question": "<strong>How do I unsubscribe from the newsletter?</strong>",
+            "answer": "<p>How do I unsubscribe from the newsletter?<br/>Click the unsubscribe link at the bottom of any email or manage preferences<br/>from your account.</p>",
+            "icon": "none",
+            "icon_width": 24,
+            "mobile_icon_width": 20
+          }
+        }
+      },
+      "block_order": [
+        "category_9Jiyjj",
+        "question_a8FRim",
+        "question_iYKCTC",
+        "question_UVXhdw",
+        "question_8KYVX8",
+        "question_HcHAT8",
+        "category_XYeQFh",
+        "question_CT4TLf",
+        "question_YyqwGG",
+        "question_P64rwt",
+        "question_cnFUc4",
+        "category_GwCKzq",
+        "question_wicAnX",
+        "question_4zdzz6",
+        "question_MXEr3Y",
+        "question_PRdnHt",
+        "question_aikpfi",
+        "question_yjdp3W",
+        "category_3YywhQ",
+        "question_qAHrEa",
+        "question_mBCF3r",
+        "question_dcNzf8",
+        "category_QJDit4",
+        "question_4anAkT",
+        "question_ndxXwy",
+        "question_q3GcmA",
+        "category_QiP7AC",
+        "question_Bq7MPy",
+        "question_9qz4AR",
+        "question_H67wFW",
+        "question_8Ck6qQ"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "layout": "stacked",
+        "accordion_style": "border",
+        "question_style": "text",
+        "subheading": "",
+        "title": "<strong>Frequently Asked Questions (FAQ) </strong>",
+        "title_tag": "h3",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "button_style": "solid"
+      }
+    }
+  },
+  "order": [
+    "faq_dUaW9P"
+  ]
+}

@@ -1,0 +1,1904 @@
+{% doc %}
+  @prompt
+    Créer une page RSE hautement personnalisable, basée sur un système de sections modulaires partageant les mêmes composants techniques, afin de garantir cohérence visuelle, lisibilité et évolutivité.
+    
+    🧱 STRUCTURE TECHNIQUE UNIVERSELLE (POUR TOUTES LES SECTIONS)
+    
+    Chaque section de la page doit pouvoir intégrer, activer ou désactiver les éléments suivants :
+    
+    1. Hiérarchie de texte
+    
+    Champ Titre principal (H2)
+    
+    Champ Sous-titre optionnel (H3)
+    
+    Champ Texte éditorial libre (paragraphes multiples)
+    
+    Gestion fine de l’espacement entre titres, sous-titres et paragraphes
+    
+    2. Icône (optionnelle)
+    
+    Icône activable / désactivable
+    
+    Style d’icône :
+    
+    ligne
+    
+    monochrome
+    
+    Position personnalisable :
+    
+    au-dessus du titre
+    
+    à gauche du titre
+    
+    à droite du titre
+    
+    Taille ajustable
+    
+    Alignement libre (gauche / centre)
+    
+    3. Image(s) (optionnelles)
+    
+    0, 1 ou 2 images par section
+    
+    Images entièrement optionnelles
+    
+    Paramètres personnalisables :
+    
+    taille
+    
+    ratio
+    
+    position (avant / après le texte, à côté)
+    
+    Possibilité de désactiver totalement les images pour une section
+    
+    Aucun effet visuel décoratif imposé (sobriété par défaut)
+    
+    4. Mise en valeur de données clés
+    
+    Bloc optionnel pour :
+    
+    chiffre clé
+    
+    date
+    
+    pourcentage
+    
+    Paramètres :
+    
+    taille du texte
+    
+    encadré ou non
+    
+    position dans la section
+    
+    Doit rester discret et cohérent avec l’ensemble de la page
+    
+    5. Listes & éléments structurants
+    
+    Support des listes à puces simples
+    
+    Support des listes courtes (exemples, matières, actions)
+    
+    Alignement cohérent avec le texte principal
+    
+    Style sobre, sans pictogrammes additionnels par défaut
+    
+    6. Divider / séparation de sections
+    
+    Divider activable / désactivable
+    
+    Style minimal :
+    
+    ligne fine
+    
+    espacement
+    
+    Position configurable :
+    
+    avant la section
+    
+    après la section
+    
+    Aucun séparateur décoratif imposé
+    
+    7. Layout & espacement
+    
+    Largeur de section ajustable
+    
+    Marges verticales personnalisables
+    
+    Possibilité d’alterner :
+    
+    sections très aérées
+    
+    sections plus denses
+    
+    Grille responsive (desktop / mobile)
+    
+    8. Logiques d’accessibilité & lisibilité
+    
+    Contraste élevé texte / fond
+    
+    Typographie lisible et hiérarchisée
+    
+    Pas de surcharge visuelle
+    
+    Lecture fluide sur mobile
+    
+    ⚙️ PRINCIPES DE CONCEPTION À RESPECTER
+    
+    Le texte reste toujours l’élément central
+    
+    Les icônes et images sont fonctionnelles, jamais décoratives
+    
+    Chaque section doit pouvoir fonctionner :
+    
+    avec texte seul
+    
+    ou avec texte + icône
+    
+    ou avec texte + image
+    
+    Aucun élément obligatoire, tout est modulable, FOLLOW-UP INSTRUCTIONS TECHNIQUES — ÉVOLUTION DU COMPOSANT SECTION RSE
+    Objectif
+    
+    Faire évoluer le composant “Section RSE” afin qu’il puisse gérer une hiérarchie interne complète, sans duplication de sections, et permettre une rédaction claire du type :
+    
+    Titre de section (H2)
+    
+    Texte introductif
+    
+    Plusieurs sous-parties :
+    
+    Sous-titre (H3)
+    
+    Texte associé
+    
+    🧱 ÉLÉMENTS À AJOUTER AU COMPOSANT
+    1️⃣ Groupe “Sous-parties” (NOUVEAU — RÉPÉTABLE)
+    
+    Ajouter un champ répétable appelé :
+    
+    Sous-parties de section
+    
+    Chaque sous-partie doit contenir :
+    
+    Sous-titre (H3) — champ texte
+    
+    Texte de sous-partie — champ texte riche (paragraphes)
+    
+    (Optionnel, à prévoir) :
+    
+    icône associée
+    
+    liste à puces
+    
+    👉 Le nombre de sous-parties doit être illimité.
+    
+    2️⃣ Hiérarchie de rendu (OBLIGATOIRE)
+    
+    Le rendu front-end doit respecter strictement l’ordre suivant :
+    
+    Titre principal de section (H2)
+    
+    Texte introductif
+    
+    Sous-parties (boucle)
+    
+    Sous-titre (H3)
+    
+    Texte associé
+    
+    Éléments optionnels (images, données clés)
+    
+    👉 Les sous-parties ne doivent jamais répéter le H2.
+    
+    3️⃣ Paramètres de mise en page pour les sous-parties (NOUVEAU)
+    
+    Ajouter des contrôles dédiés aux sous-parties :
+    
+    Espacement entre sous-parties (mobile / desktop)
+    
+    Espacement sous-titre → texte
+    
+    Alignement du texte (hérité de la section)
+    
+    Largeur identique à la section parente
+    
+    Par défaut :
+    
+    Espacement modéré
+    
+    Aucun divider entre sous-parties
+    
+    Style visuel sobre, cohérent avec le reste de la page
+    
+    4️⃣ Typographie indépendante (IMPORTANT)
+    
+    Permettre de régler :
+    
+    Taille du H3 des sous-parties (mobile / desktop)
+    
+    Couleur du H3
+    
+    Taille et interligne du texte des sous-parties
+    
+    Ces réglages doivent être :
+    
+    distincts du H3 “sous-titre de section” actuel
+    
+    mais héritables si souhaité
+    
+    5️⃣ Compatibilité ascendante (CRITIQUE)
+    
+    Le nouveau champ “Sous-parties” :
+    
+    ne doit pas casser les sections existantes
+    
+    doit être désactivé par défaut
+    
+    doit apparaître uniquement si au moins une sous-partie est ajoutée
+    
+    6️⃣ UX ÉDITEUR (SIMPLE ET INTUITIVE)
+    
+    Dans l’éditeur :
+    
+    Bouton : “Ajouter une sous-partie”
+    
+    Chaque sous-partie est :
+    
+    réordonnable (drag & drop)
+    
+    duplicable
+    
+    supprimable
+    
+    Interface claire, sans options inutiles, La configuration actuelle correspond bien à notre besoin.
+    
+    Rajouter la possibilité d’ajouter une image ou icone pour chaque sous-parties, désactivée par défaut.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-csr-section-{{ ai_gen_id }} {
+    display: block;
+    width: 100%;
+    padding-top: {{ block.settings.spacing_top }}px;
+    padding-bottom: {{ block.settings.spacing_bottom }}px;
+  }
+
+  .ai-csr-section__container-{{ ai_gen_id }} {
+    max-width: {{ block.settings.section_width }}px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .ai-csr-section__divider-top-{{ ai_gen_id }} {
+    width: 100%;
+    height: 1px;
+    background-color: {{ block.settings.divider_color }};
+    margin-bottom: {{ block.settings.spacing_after_divider }}px;
+  }
+
+  .ai-csr-section__content-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: {{ block.settings.layout_direction }};
+    gap: {{ block.settings.content_gap }}px;
+    align-items: {{ block.settings.vertical_alignment }};
+  }
+
+  .ai-csr-section__text-wrapper-{{ ai_gen_id }} {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .ai-csr-section__icon-wrapper-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: {{ block.settings.icon_spacing }}px;
+    {% if block.settings.icon_position == 'center' %}
+      justify-content: center;
+    {% elsif block.settings.icon_position == 'left' %}
+      justify-content: flex-start;
+    {% endif %}
+  }
+
+  .ai-csr-section__icon-{{ ai_gen_id }} {
+    width: {{ block.settings.icon_size }}px;
+    height: {{ block.settings.icon_size }}px;
+    flex-shrink: 0;
+  }
+
+  .ai-csr-section__icon-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    stroke: {{ block.settings.icon_color }};
+    fill: none;
+    stroke-width: {{ block.settings.icon_stroke_width }};
+  }
+
+  .ai-csr-section__heading-{{ ai_gen_id }} {
+    margin: 0 0 {{ block.settings.heading_spacing }}px;
+    color: {{ block.settings.heading_color }};
+    font-size: {{ block.settings.heading_size }}px;
+    line-height: {{ block.settings.heading_line_height }};
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-csr-section__subheading-{{ ai_gen_id }} {
+    margin: 0 0 {{ block.settings.subheading_spacing }}px;
+    color: {{ block.settings.subheading_color }};
+    font-size: {{ block.settings.subheading_size }}px;
+    line-height: {{ block.settings.subheading_line_height }};
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-csr-section__intro-text-{{ ai_gen_id }} {
+    margin: 0 0 {{ block.settings.intro_text_spacing }}px;
+    color: {{ block.settings.text_color }};
+    font-size: {{ block.settings.text_size }}px;
+    line-height: {{ block.settings.text_line_height }};
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-csr-section__intro-text-{{ ai_gen_id }} p {
+    margin: 0 0 {{ block.settings.paragraph_spacing }}px;
+  }
+
+  .ai-csr-section__intro-text-{{ ai_gen_id }} p:last-child {
+    margin-bottom: 0;
+  }
+
+  .ai-csr-section__subsections-{{ ai_gen_id }} {
+    margin-top: {{ block.settings.subsections_top_spacing }}px;
+  }
+
+  .ai-csr-section__subsection-{{ ai_gen_id }} {
+    margin-bottom: {{ block.settings.subsection_spacing }}px;
+  }
+
+  .ai-csr-section__subsection-{{ ai_gen_id }}:last-child {
+    margin-bottom: 0;
+  }
+
+  .ai-csr-section__subsection-header-{{ ai_gen_id }} {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: {{ block.settings.subsection_title_spacing }}px;
+  }
+
+  .ai-csr-section__subsection-icon-{{ ai_gen_id }} {
+    width: {{ block.settings.subsection_icon_size }}px;
+    height: {{ block.settings.subsection_icon_size }}px;
+    flex-shrink: 0;
+    margin-top: 4px;
+  }
+
+  .ai-csr-section__subsection-icon-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    stroke: {{ block.settings.subsection_icon_color }};
+    fill: none;
+    stroke-width: {{ block.settings.subsection_icon_stroke_width }};
+  }
+
+  .ai-csr-section__subsection-icon-{{ ai_gen_id }} img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .ai-csr-section__subsection-title-{{ ai_gen_id }} {
+    margin: 0;
+    color: {{ block.settings.subsection_title_color }};
+    font-size: {{ block.settings.subsection_title_size }}px;
+    line-height: {{ block.settings.subsection_title_line_height }};
+    text-align: {{ block.settings.text_alignment }};
+    flex: 1;
+  }
+
+  .ai-csr-section__subsection-text-{{ ai_gen_id }} {
+    margin: 0;
+    color: {{ block.settings.subsection_text_color }};
+    font-size: {{ block.settings.subsection_text_size }}px;
+    line-height: {{ block.settings.subsection_text_line_height }};
+    text-align: {{ block.settings.text_alignment }};
+  }
+
+  .ai-csr-section__subsection-text-{{ ai_gen_id }} p {
+    margin: 0 0 {{ block.settings.subsection_paragraph_spacing }}px;
+  }
+
+  .ai-csr-section__subsection-text-{{ ai_gen_id }} p:last-child {
+    margin-bottom: 0;
+  }
+
+  .ai-csr-section__subsection-text-{{ ai_gen_id }} ul,
+  .ai-csr-section__subsection-text-{{ ai_gen_id }} ol {
+    margin: 0 0 {{ block.settings.subsection_paragraph_spacing }}px;
+    padding-left: 20px;
+  }
+
+  .ai-csr-section__subsection-text-{{ ai_gen_id }} li {
+    margin-bottom: 8px;
+  }
+
+  .ai-csr-section__subsection-text-{{ ai_gen_id }} li:last-child {
+    margin-bottom: 0;
+  }
+
+  .ai-csr-section__key-data-{{ ai_gen_id }} {
+    display: inline-block;
+    font-size: {{ block.settings.key_data_size }}px;
+    font-weight: 700;
+    color: {{ block.settings.key_data_color }};
+    {% if block.settings.key_data_boxed %}
+      padding: 8px 16px;
+      border: 2px solid {{ block.settings.key_data_border_color }};
+      border-radius: 4px;
+    {% endif %}
+    margin-bottom: {{ block.settings.key_data_spacing }}px;
+  }
+
+  .ai-csr-section__images-wrapper-{{ ai_gen_id }} {
+    display: flex;
+    gap: {{ block.settings.images_gap }}px;
+    flex-direction: {{ block.settings.images_layout }};
+    {% if block.settings.layout_direction == 'row' %}
+      flex: 0 0 auto;
+      width: {{ block.settings.images_width }}%;
+    {% endif %}
+  }
+
+  .ai-csr-section__image-container-{{ ai_gen_id }} {
+    {% if block.settings.images_layout == 'row' %}
+      flex: 1;
+    {% endif %}
+    overflow: hidden;
+  }
+
+  .ai-csr-section__image-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+    {% if block.settings.image_ratio != 'natural' %}
+      aspect-ratio: {{ block.settings.image_ratio }};
+      object-fit: cover;
+    {% endif %}
+  }
+
+  .ai-csr-section__divider-bottom-{{ ai_gen_id }} {
+    width: 100%;
+    height: 1px;
+    background-color: {{ block.settings.divider_color }};
+    margin-top: {{ block.settings.spacing_before_divider }}px;
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-csr-section__content-{{ ai_gen_id }} {
+      flex-direction: column;
+    }
+
+    .ai-csr-section__images-wrapper-{{ ai_gen_id }} {
+      width: 100%;
+    }
+
+    .ai-csr-section__heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.heading_size_mobile }}px;
+    }
+
+    .ai-csr-section__subheading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.subheading_size_mobile }}px;
+    }
+
+    .ai-csr-section__intro-text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.text_size_mobile }}px;
+    }
+
+    .ai-csr-section__subsection-title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.subsection_title_size_mobile }}px;
+    }
+
+    .ai-csr-section__subsection-text-{{ ai_gen_id }} {
+      font-size: {{ block.settings.subsection_text_size_mobile }}px;
+    }
+
+    .ai-csr-section__subsections-{{ ai_gen_id }} {
+      margin-top: {{ block.settings.subsections_top_spacing_mobile }}px;
+    }
+
+    .ai-csr-section__subsection-{{ ai_gen_id }} {
+      margin-bottom: {{ block.settings.subsection_spacing_mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="ai-csr-section-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-csr-section__container-{{ ai_gen_id }}">
+    {% if block.settings.show_divider_top %}
+      <div class="ai-csr-section__divider-top-{{ ai_gen_id }}"></div>
+    {% endif %}
+
+    <div class="ai-csr-section__content-{{ ai_gen_id }}">
+      <div class="ai-csr-section__text-wrapper-{{ ai_gen_id }}">
+        {% if block.settings.show_icon and block.settings.icon_svg != blank %}
+          <div class="ai-csr-section__icon-wrapper-{{ ai_gen_id }}">
+            {% if block.settings.icon_position == 'left' or block.settings.icon_position == 'center' %}
+              <div class="ai-csr-section__icon-{{ ai_gen_id }}">
+                {{ block.settings.icon_svg }}
+              </div>
+            {% endif %}
+            {% if block.settings.icon_position == 'left' and block.settings.heading != blank %}
+              <h2 class="ai-csr-section__heading-{{ ai_gen_id }}">{{ block.settings.heading }}</h2>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        {% if block.settings.icon_position == 'above' or block.settings.icon_position == 'center' or block.settings.icon_position == 'right' %}
+          {% if block.settings.heading != blank %}
+            <h2 class="ai-csr-section__heading-{{ ai_gen_id }}">{{ block.settings.heading }}</h2>
+          {% endif %}
+        {% endif %}
+
+        {% if block.settings.subheading != blank %}
+          <h3 class="ai-csr-section__subheading-{{ ai_gen_id }}">{{ block.settings.subheading }}</h3>
+        {% endif %}
+
+        {% if block.settings.show_key_data and block.settings.key_data_text != blank %}
+          <div class="ai-csr-section__key-data-{{ ai_gen_id }}">
+            {{ block.settings.key_data_text }}
+          </div>
+        {% endif %}
+
+        {% if block.settings.intro_text != blank %}
+          <div class="ai-csr-section__intro-text-{{ ai_gen_id }}">
+            {{ block.settings.intro_text }}
+          </div>
+        {% endif %}
+
+        {% assign has_subsections = false %}
+        {% for i in (1..10) %}
+          {% assign subsection_enabled_key = 'subsection_' | append: i | append: '_enabled' %}
+          {% if block.settings[subsection_enabled_key] %}
+            {% assign has_subsections = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        {% if has_subsections %}
+          <div class="ai-csr-section__subsections-{{ ai_gen_id }}">
+            {% for i in (1..10) %}
+              {% assign subsection_enabled_key = 'subsection_' | append: i | append: '_enabled' %}
+              {% assign subsection_show_icon_key = 'subsection_' | append: i | append: '_show_icon' %}
+              {% assign subsection_icon_type_key = 'subsection_' | append: i | append: '_icon_type' %}
+              {% assign subsection_icon_svg_key = 'subsection_' | append: i | append: '_icon_svg' %}
+              {% assign subsection_icon_image_key = 'subsection_' | append: i | append: '_icon_image' %}
+              {% assign subsection_title_key = 'subsection_' | append: i | append: '_title' %}
+              {% assign subsection_text_key = 'subsection_' | append: i | append: '_text' %}
+
+              {% if block.settings[subsection_enabled_key] %}
+                <div class="ai-csr-section__subsection-{{ ai_gen_id }}">
+                  {% if block.settings[subsection_title_key] != blank %}
+                    <div class="ai-csr-section__subsection-header-{{ ai_gen_id }}">
+                      {% if block.settings[subsection_show_icon_key] %}
+                        <div class="ai-csr-section__subsection-icon-{{ ai_gen_id }}">
+                          {% if block.settings[subsection_icon_type_key] == 'svg' and block.settings[subsection_icon_svg_key] != blank %}
+                            {{ block.settings[subsection_icon_svg_key] }}
+                          {% elsif block.settings[subsection_icon_type_key] == 'image' and block.settings[subsection_icon_image_key] != blank %}
+                            <img
+                              src="{{ block.settings[subsection_icon_image_key] | image_url: width: 100 }}"
+                              alt="{{ block.settings[subsection_icon_image_key].alt | escape }}"
+                              loading="lazy"
+                              width="100"
+                              height="100"
+                            >
+                          {% endif %}
+                        </div>
+                      {% endif %}
+                      <h3 class="ai-csr-section__subsection-title-{{ ai_gen_id }}">
+                        {{ block.settings[subsection_title_key] }}
+                      </h3>
+                    </div>
+                  {% endif %}
+
+                  {% if block.settings[subsection_text_key] != blank %}
+                    <div class="ai-csr-section__subsection-text-{{ ai_gen_id }}">
+                      {{ block.settings[subsection_text_key] }}
+                    </div>
+                  {% endif %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+
+      {% if block.settings.show_images and block.settings.image_1 != blank or block.settings.image_2 != blank %}
+        <div class="ai-csr-section__images-wrapper-{{ ai_gen_id }}">
+          {% if block.settings.image_1 != blank %}
+            <div class="ai-csr-section__image-container-{{ ai_gen_id }}">
+              <img
+                src="{{ block.settings.image_1 | image_url: width: 1200 }}"
+                alt="{{ block.settings.image_1.alt | escape }}"
+                loading="lazy"
+                width="{{ block.settings.image_1.width }}"
+                height="{{ block.settings.image_1.height }}"
+                class="ai-csr-section__image-{{ ai_gen_id }}"
+              >
+            </div>
+          {% endif %}
+
+          {% if block.settings.image_2 != blank %}
+            <div class="ai-csr-section__image-container-{{ ai_gen_id }}">
+              <img
+                src="{{ block.settings.image_2 | image_url: width: 1200 }}"
+                alt="{{ block.settings.image_2.alt | escape }}"
+                loading="lazy"
+                width="{{ block.settings.image_2.width }}"
+                height="{{ block.settings.image_2.height }}"
+                class="ai-csr-section__image-{{ ai_gen_id }}"
+              >
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+
+    {% if block.settings.show_divider_bottom %}
+      <div class="ai-csr-section__divider-bottom-{{ ai_gen_id }}"></div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "CSR modular section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "section_width",
+      "label": "Section width",
+      "min": 600,
+      "max": 1400,
+      "step": 50,
+      "unit": "px",
+      "default": 1200
+    },
+    {
+      "type": "select",
+      "id": "layout_direction",
+      "label": "Content layout",
+      "options": [
+        {
+          "value": "column",
+          "label": "Text only (full width)"
+        },
+        {
+          "value": "row",
+          "label": "Text + images side by side"
+        }
+      ],
+      "default": "column"
+    },
+    {
+      "type": "select",
+      "id": "vertical_alignment",
+      "label": "Vertical alignment",
+      "options": [
+        {
+          "value": "flex-start",
+          "label": "Top"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "flex-end",
+          "label": "Bottom"
+        }
+      ],
+      "default": "flex-start"
+    },
+    {
+      "type": "range",
+      "id": "content_gap",
+      "label": "Gap between text and images",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "spacing_top",
+      "label": "Top spacing",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "range",
+      "id": "spacing_bottom",
+      "label": "Bottom spacing",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "header",
+      "content": "Icon"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_icon",
+      "label": "Show icon",
+      "default": false
+    },
+    {
+      "type": "html",
+      "id": "icon_svg",
+      "label": "Icon SVG code"
+    },
+    {
+      "type": "select",
+      "id": "icon_position",
+      "label": "Icon position",
+      "options": [
+        {
+          "value": "above",
+          "label": "Above title"
+        },
+        {
+          "value": "left",
+          "label": "Left of title"
+        },
+        {
+          "value": "center",
+          "label": "Centered above title"
+        }
+      ],
+      "default": "above"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Icon size",
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "color",
+      "id": "icon_color",
+      "label": "Icon color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "icon_stroke_width",
+      "label": "Icon stroke width",
+      "min": 1,
+      "max": 3,
+      "step": 0.5,
+      "unit": "px",
+      "default": 1.5
+    },
+    {
+      "type": "range",
+      "id": "icon_spacing",
+      "label": "Space below icon",
+      "min": 0,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Main heading (H2)"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading text"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Size (desktop)",
+      "min": 20,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "label": "Size (mobile)",
+      "min": 18,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 28
+    },
+    {
+      "type": "range",
+      "id": "heading_line_height",
+      "label": "Line height",
+      "min": 1,
+      "max": 1.8,
+      "step": 0.1,
+      "default": 1.2
+    },
+    {
+      "type": "range",
+      "id": "heading_spacing",
+      "label": "Space below",
+      "min": 0,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Subheading (H3)"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading text"
+    },
+    {
+      "type": "color",
+      "id": "subheading_color",
+      "label": "Color",
+      "default": "#666666"
+    },
+    {
+      "type": "range",
+      "id": "subheading_size",
+      "label": "Size (desktop)",
+      "min": 14,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "subheading_size_mobile",
+      "label": "Size (mobile)",
+      "min": 14,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "subheading_line_height",
+      "label": "Line height",
+      "min": 1,
+      "max": 1.8,
+      "step": 0.1,
+      "default": 1.4
+    },
+    {
+      "type": "range",
+      "id": "subheading_spacing",
+      "label": "Space below",
+      "min": 0,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "header",
+      "content": "Key data"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_key_data",
+      "label": "Show key data",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "key_data_text",
+      "label": "Key data text"
+    },
+    {
+      "type": "color",
+      "id": "key_data_color",
+      "label": "Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "key_data_size",
+      "label": "Size",
+      "min": 20,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "checkbox",
+      "id": "key_data_boxed",
+      "label": "Show border",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "key_data_border_color",
+      "label": "Border color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "key_data_spacing",
+      "label": "Space below",
+      "min": 0,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "header",
+      "content": "Intro text"
+    },
+    {
+      "type": "richtext",
+      "id": "intro_text",
+      "label": "Intro text content"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "left"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Color",
+      "default": "#535150"
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "label": "Size (desktop)",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "text_size_mobile",
+      "label": "Size (mobile)",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "text_line_height",
+      "label": "Line height",
+      "min": 1.2,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.6
+    },
+    {
+      "type": "range",
+      "id": "paragraph_spacing",
+      "label": "Space between paragraphs",
+      "min": 5,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "intro_text_spacing",
+      "label": "Space below intro text",
+      "min": 0,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "header",
+      "content": "Subsections"
+    },
+    {
+      "type": "paragraph",
+      "content": "Add up to 10 subsections with H3 titles and text content"
+    },
+    {
+      "type": "range",
+      "id": "subsections_top_spacing",
+      "label": "Space above subsections (desktop)",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "subsections_top_spacing_mobile",
+      "label": "Space above subsections (mobile)",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "subsection_spacing",
+      "label": "Space between subsections (desktop)",
+      "min": 10,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "subsection_spacing_mobile",
+      "label": "Space between subsections (mobile)",
+      "min": 10,
+      "max": 60,
+      "step": 5,
+      "unit": "px",
+      "default": 25
+    },
+    {
+      "type": "header",
+      "content": "Subsection icons"
+    },
+    {
+      "type": "range",
+      "id": "subsection_icon_size",
+      "label": "Icon size",
+      "min": 16,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "default": 24
+    },
+    {
+      "type": "color",
+      "id": "subsection_icon_color",
+      "label": "Icon color (SVG)",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "subsection_icon_stroke_width",
+      "label": "Icon stroke width (SVG)",
+      "min": 1,
+      "max": 3,
+      "step": 0.5,
+      "unit": "px",
+      "default": 1.5
+    },
+    {
+      "type": "header",
+      "content": "Subsection titles (H3)"
+    },
+    {
+      "type": "color",
+      "id": "subsection_title_color",
+      "label": "Color",
+      "default": "#000000"
+    },
+    {
+      "type": "range",
+      "id": "subsection_title_size",
+      "label": "Size (desktop)",
+      "min": 14,
+      "max": 36,
+      "step": 2,
+      "unit": "px",
+      "default": 22
+    },
+    {
+      "type": "range",
+      "id": "subsection_title_size_mobile",
+      "label": "Size (mobile)",
+      "min": 14,
+      "max": 28,
+      "step": 2,
+      "unit": "px",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "subsection_title_line_height",
+      "label": "Line height",
+      "min": 1,
+      "max": 1.8,
+      "step": 0.1,
+      "default": 1.3
+    },
+    {
+      "type": "range",
+      "id": "subsection_title_spacing",
+      "label": "Space below title",
+      "min": 5,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "header",
+      "content": "Subsection text"
+    },
+    {
+      "type": "color",
+      "id": "subsection_text_color",
+      "label": "Color",
+      "default": "#535150"
+    },
+    {
+      "type": "range",
+      "id": "subsection_text_size",
+      "label": "Size (desktop)",
+      "min": 12,
+      "max": 22,
+      "step": 1,
+      "unit": "px",
+      "default": 15
+    },
+    {
+      "type": "range",
+      "id": "subsection_text_size_mobile",
+      "label": "Size (mobile)",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "subsection_text_line_height",
+      "label": "Line height",
+      "min": 1.2,
+      "max": 2,
+      "step": 0.1,
+      "default": 1.6
+    },
+    {
+      "type": "range",
+      "id": "subsection_paragraph_spacing",
+      "label": "Space between paragraphs",
+      "min": 5,
+      "max": 30,
+      "step": 5,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "header",
+      "content": "Subsection 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_1_enabled",
+      "label": "Enable subsection 1",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "subsection_1_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "subsection_1_text",
+      "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_1_show_icon",
+      "label": "Show icon",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "subsection_1_icon_type",
+      "label": "Icon type",
+      "options": [
+        {
+          "value": "svg",
+          "label": "SVG code"
+        },
+        {
+          "value": "image",
+          "label": "Image"
+        }
+      ],
+      "default": "svg"
+    },
+    {
+      "type": "html",
+      "id": "subsection_1_icon_svg",
+      "label": "Icon SVG code"
+    },
+    {
+      "type": "image_picker",
+      "id": "subsection_1_icon_image",
+      "label": "Icon image"
+    },
+    {
+      "type": "header",
+      "content": "Subsection 2"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_2_enabled",
+      "label": "Enable subsection 2",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "subsection_2_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "subsection_2_text",
+      "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_2_show_icon",
+      "label": "Show icon",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "subsection_2_icon_type",
+      "label": "Icon type",
+      "options": [
+        {
+          "value": "svg",
+          "label": "SVG code"
+        },
+        {
+          "value": "image",
+          "label": "Image"
+        }
+      ],
+      "default": "svg"
+    },
+    {
+      "type": "html",
+      "id": "subsection_2_icon_svg",
+      "label": "Icon SVG code"
+    },
+    {
+      "type": "image_picker",
+      "id": "subsection_2_icon_image",
+      "label": "Icon image"
+    },
+    {
+      "type": "header",
+      "content": "Subsection 3"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_3_enabled",
+      "label": "Enable subsection 3",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "subsection_3_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "subsection_3_text",
+      "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_3_show_icon",
+      "label": "Show icon",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "subsection_3_icon_type",
+      "label": "Icon type",
+      "options": [
+        {
+          "value": "svg",
+          "label": "SVG code"
+        },
+        {
+          "value": "image",
+          "label": "Image"
+        }
+      ],
+      "default": "svg"
+    },
+    {
+      "type": "html",
+      "id": "subsection_3_icon_svg",
+      "label": "Icon SVG code"
+    },
+    {
+      "type": "image_picker",
+      "id": "subsection_3_icon_image",
+      "label": "Icon image"
+    },
+    {
+      "type": "header",
+      "content": "Subsection 4"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_4_enabled",
+      "label": "Enable subsection 4",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "subsection_4_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "subsection_4_text",
+      "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_4_show_icon",
+      "label": "Show icon",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "subsection_4_icon_type",
+      "label": "Icon type",
+      "options": [
+        {
+          "value": "svg",
+          "label": "SVG code"
+        },
+        {
+          "value": "image",
+          "label": "Image"
+        }
+      ],
+      "default": "svg"
+    },
+    {
+      "type": "html",
+      "id": "subsection_4_icon_svg",
+      "label": "Icon SVG code"
+    },
+    {
+      "type": "image_picker",
+      "id": "subsection_4_icon_image",
+      "label": "Icon image"
+    },
+    {
+      "type": "header",
+      "content": "Subsection 5"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_5_enabled",
+      "label": "Enable subsection 5",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "subsection_5_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "subsection_5_text",
+      "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_5_show_icon",
+      "label": "Show icon",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "subsection_5_icon_type",
+      "label": "Icon type",
+      "options": [
+        {
+          "value": "svg",
+          "label": "SVG code"
+        },
+        {
+          "value": "image",
+          "label": "Image"
+        }
+      ],
+      "default": "svg"
+    },
+    {
+      "type": "html",
+      "id": "subsection_5_icon_svg",
+      "label": "Icon SVG code"
+    },
+    {
+      "type": "image_picker",
+      "id": "subsection_5_icon_image",
+      "label": "Icon image"
+    },
+    {
+      "type": "header",
+      "content": "Subsection 6"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_6_enabled",
+      "label": "Enable subsection 6",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "subsection_6_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "subsection_6_text",
+      "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_6_show_icon",
+      "label": "Show icon",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "subsection_6_icon_type",
+      "label": "Icon type",
+      "options": [
+        {
+          "value": "svg",
+          "label": "SVG code"
+        },
+        {
+          "value": "image",
+          "label": "Image"
+        }
+      ],
+      "default": "svg"
+    },
+    {
+      "type": "html",
+      "id": "subsection_6_icon_svg",
+      "label": "Icon SVG code"
+    },
+    {
+      "type": "image_picker",
+      "id": "subsection_6_icon_image",
+      "label": "Icon image"
+    },
+    {
+      "type": "header",
+      "content": "Subsection 7"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_7_enabled",
+      "label": "Enable subsection 7",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "subsection_7_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "subsection_7_text",
+      "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_7_show_icon",
+      "label": "Show icon",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "subsection_7_icon_type",
+      "label": "Icon type",
+      "options": [
+        {
+          "value": "svg",
+          "label": "SVG code"
+        },
+        {
+          "value": "image",
+          "label": "Image"
+        }
+      ],
+      "default": "svg"
+    },
+    {
+      "type": "html",
+      "id": "subsection_7_icon_svg",
+      "label": "Icon SVG code"
+    },
+    {
+      "type": "image_picker",
+      "id": "subsection_7_icon_image",
+      "label": "Icon image"
+    },
+    {
+      "type": "header",
+      "content": "Subsection 8"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_8_enabled",
+      "label": "Enable subsection 8",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "subsection_8_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "subsection_8_text",
+      "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_8_show_icon",
+      "label": "Show icon",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "subsection_8_icon_type",
+      "label": "Icon type",
+      "options": [
+        {
+          "value": "svg",
+          "label": "SVG code"
+        },
+        {
+          "value": "image",
+          "label": "Image"
+        }
+      ],
+      "default": "svg"
+    },
+    {
+      "type": "html",
+      "id": "subsection_8_icon_svg",
+      "label": "Icon SVG code"
+    },
+    {
+      "type": "image_picker",
+      "id": "subsection_8_icon_image",
+      "label": "Icon image"
+    },
+    {
+      "type": "header",
+      "content": "Subsection 9"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_9_enabled",
+      "label": "Enable subsection 9",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "subsection_9_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "subsection_9_text",
+      "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_9_show_icon",
+      "label": "Show icon",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "subsection_9_icon_type",
+      "label": "Icon type",
+      "options": [
+        {
+          "value": "svg",
+          "label": "SVG code"
+        },
+        {
+          "value": "image",
+          "label": "Image"
+        }
+      ],
+      "default": "svg"
+    },
+    {
+      "type": "html",
+      "id": "subsection_9_icon_svg",
+      "label": "Icon SVG code"
+    },
+    {
+      "type": "image_picker",
+      "id": "subsection_9_icon_image",
+      "label": "Icon image"
+    },
+    {
+      "type": "header",
+      "content": "Subsection 10"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_10_enabled",
+      "label": "Enable subsection 10",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "subsection_10_title",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "subsection_10_text",
+      "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "subsection_10_show_icon",
+      "label": "Show icon",
+      "default": false
+    },
+    {
+      "type": "select",
+      "id": "subsection_10_icon_type",
+      "label": "Icon type",
+      "options": [
+        {
+          "value": "svg",
+          "label": "SVG code"
+        },
+        {
+          "value": "image",
+          "label": "Image"
+        }
+      ],
+      "default": "svg"
+    },
+    {
+      "type": "html",
+      "id": "subsection_10_icon_svg",
+      "label": "Icon SVG code"
+    },
+    {
+      "type": "image_picker",
+      "id": "subsection_10_icon_image",
+      "label": "Icon image"
+    },
+    {
+      "type": "header",
+      "content": "Images"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_images",
+      "label": "Show images",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image 2"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image position",
+      "options": [
+        {
+          "value": "before",
+          "label": "Before text"
+        },
+        {
+          "value": "after",
+          "label": "After text"
+        }
+      ],
+      "default": "after"
+    },
+    {
+      "type": "select",
+      "id": "images_layout",
+      "label": "Images layout",
+      "options": [
+        {
+          "value": "column",
+          "label": "Stacked vertically"
+        },
+        {
+          "value": "row",
+          "label": "Side by side"
+        }
+      ],
+      "default": "column"
+    },
+    {
+      "type": "range",
+      "id": "images_width",
+      "label": "Images width",
+      "min": 20,
+      "max": 60,
+      "step": 5,
+      "unit": "%",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "images_gap",
+      "label": "Gap between images",
+      "min": 0,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "default": 20
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "label": "Image aspect ratio",
+      "options": [
+        {
+          "value": "natural",
+          "label": "Natural"
+        },
+        {
+          "value": "1 / 1",
+          "label": "Square (1:1)"
+        },
+        {
+          "value": "4 / 3",
+          "label": "Landscape (4:3)"
+        },
+        {
+          "value": "16 / 9",
+          "label": "Wide (16:9)"
+        },
+        {
+          "value": "3 / 4",
+          "label": "Portrait (3:4)"
+        }
+      ],
+      "default": "natural"
+    },
+    {
+      "type": "header",
+      "content": "Dividers"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_divider_top",
+      "label": "Show divider at top",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_divider_bottom",
+      "label": "Show divider at bottom",
+      "default": false
+    },
+    {
+      "type": "color",
+      "id": "divider_color",
+      "label": "Divider color",
+      "default": "#e0e0e0"
+    },
+    {
+      "type": "range",
+      "id": "spacing_after_divider",
+      "label": "Space after top divider",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "spacing_before_divider",
+      "label": "Space before bottom divider",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "px",
+      "default": 40
+    }
+  ],
+  "presets": [
+    {
+      "name": "CSR modular section"
+    }
+  ]
+}
+{% endschema %}

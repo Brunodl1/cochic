@@ -1,0 +1,122 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "trust-icons": {
+      "type": "trust-icons",
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/1_25cf84e9-0844-494a-9658-c10db6b7f0c8.png",
+            "icon_width": 64,
+            "mobile_icon_width": 48,
+            "title": "Worldwide delivery",
+            "content": "Receive your order anywhere in the world."
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/2_0e06d4ba-329d-4820-9c20-d51886429c09.png",
+            "icon_width": 64,
+            "mobile_icon_width": 48,
+            "title": "Free shipping",
+            "content": "Free shipping to the US and Canada."
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/3_a6944c92-734b-4292-b5ae-796a97ab35ec.png",
+            "icon_width": 64,
+            "mobile_icon_width": 48,
+            "title": "Customer service",
+            "content": "We are available 24/7 to answer your questions."
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/4_1185e235-d420-4aff-89fc-96646fe53f74.png",
+            "icon_width": 64,
+            "mobile_icon_width": 48,
+            "title": "Secure payment",
+            "content": "Your payment information is processed securely."
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "item_heading_style": "subheading"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>Sign up to our newsletter to receive exclusive offers.</p>",
+            "disclaimer_text": "<p>By signing up to our newsletter, you agree with our privacy policy.</p>"
+          }
+        },
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "collapse_on_mobile": true,
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "content": "",
+            "enable_follow_on_shop": true
+          }
+        }
+      },
+      "block_order": [
+        "newsletter",
+        "links",
+        "text"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_name": true,
+        "show_country_flag": true,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "trust-icons",
+    "footer"
+  ]
+}

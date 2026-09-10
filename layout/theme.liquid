@@ -1,0 +1,241 @@
+<!doctype html>
+
+<html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=5.0">
+
+    <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.page' | t: page: current_page }}{% endif %}{% endif %}</title>
+
+    {%- if page_description -%}
+      <meta name="description" content="{{ page_description | escape }}">
+    {%- endif -%}
+
+    <link rel="canonical" href="{{ canonical_url }}">
+
+    {%- if settings.favicon -%}
+      <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 96 }}">
+      <link rel="apple-touch-icon" href="{{ settings.favicon | image_url: width: 180 }}">
+    {%- endif -%}
+
+    {%- unless settings.heading_font.system? -%}
+      <link rel="preload" href="{{ settings.heading_font | font_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- unless settings.text_font.system? -%}
+      <link rel="preload" href="{{ settings.text_font | font_url }}" as="font" type="font/woff2" crossorigin>
+    {%- endunless -%}
+
+    {%- render 'social-meta-tags' -%}
+    {%- render 'microdata-schema' -%}
+    {%- render 'css-variables' -%}
+    {%- render 'js-variables' -%}
+
+    {%- if request.page_type == 'gift_card' -%}
+      <script src="{{ 'vendor/qrcode.js' | shopify_asset_url }}" defer></script>
+    {%- endif -%}
+
+    <script>
+      if (!(HTMLScriptElement.supports && HTMLScriptElement.supports('importmap'))) {
+        const importMapPolyfill = document.createElement('script');
+        importMapPolyfill.async = true;
+        importMapPolyfill.src = "{{ 'es-module-shims.min.js' | asset_url }}";
+
+        document.head.appendChild(importMapPolyfill);
+      }
+    </script>
+
+    <script type="importmap">
+      {%- comment -%}On Safari 16.3 and lower, a polyfill is used to load importmap{%- endcomment -%}
+      {
+        "imports": {
+          "vendor": "{{ 'vendor.min.js' | asset_url }}",
+          "theme": "{{ 'theme.js' | asset_url }}",
+          "photoswipe": "{{ 'photoswipe.min.js' | asset_url }}"
+        }
+      }
+    </script>
+
+    <script type="module" src="{{ 'vendor.min.js' | asset_url }}"></script>
+    <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
+
+    {{ content_for_header }}
+
+    {{- 'theme.css' | asset_url | stylesheet_tag: preload: true -}}
+  </head>
+
+  {% liquid
+    assign features_class = ''
+
+    if settings.image_hover_animation == 'zoom'
+      assign features_class = features_class | append: 'features--zoom-image '
+    elsif settings.image_hover_animation == 'zoom_filter'
+      assign features_class = features_class | append: 'features--zoom-filter-image '
+    endif
+  %}
+
+  <body class="{{ features_class }}">
+    {%- render 'shadow-dom-templates' -%}
+
+    <loading-bar class="loading-bar" aria-hidden="true"></loading-bar>
+
+    <a href="#main" allow-hash-change class="skip-to-content sr-only">{{ 'general.accessibility.skip_to_content' | t }}</a>
+
+    <span id="header-scroll-tracker" style="position: absolute; width: 1px; height: 1px; top: 200px; left: 0;">
+      {%- comment -%}
+        This allows our theme to track when the user has scrolled a given amount of pixels, without relying on a global scroll listener. This helps
+        to improve performance and reduce reflows.
+      {%- endcomment -%}
+    </span>
+    
+    {%- if request.page_type != 'password' -%}
+      {%- sections 'header-group' -%}
+      {%- sections 'overlay-group' -%}
+    {%- endif -%}
+
+    <main id="main" class="anchor">
+      {{ content_for_layout }}
+    </main>
+
+    {%- if request.page_type != 'password' -%}
+      {%- sections 'footer-group' -%}
+    {%- endif -%}
+
+    <x-toast class="toast">
+      {% comment %}Container for notification messages; DO NOT DELETE{% endcomment %}
+    </x-toast>
+  <!-- B2B Pop-up -->
+<style>
+  #b2b-popup {
+    display: none;
+    position: Fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 5px;
+    z-index: 9999;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    width: 400px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-size: 11px; /* 👈 smaller font size */
+  }
+
+  #b2b-popup input,
+  #b2b-popup textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  #b2b-popup h2 {
+    margin-top: 0;
+  }
+  #b2b-popup button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+  #b2b-overlay {
+    display: none;
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  #b2b-thankyou {
+    display: none;
+    color: green;
+    margin-top: 20px;
+    text-align: left;
+  }
+</style>
+
+<div id="b2b-overlay"></div>
+
+<div id="b2b-popup">
+  <h2>B2B Inquiry Form</h2>
+  <form method="post" action="/contact#contact_form" id="b2b-form">
+    <input type="hidden" name="form_type" value="contact">
+    <input type="hidden" name="utf8" value="✓">
+
+    <label>Name</label>
+    <input type="text" name="contact[name]" id="b2bName" required>
+
+    <label>Email</label>
+    <input type="email" name="contact[email]" id="b2bEmail" required>
+
+    <label>Phone Number</label>
+    <input type="text" id="b2bPhone" required>
+
+    <label>Country</label>
+    <input type="text" id="b2bCountry" required>
+
+    <label>Company Name</label>
+    <input type="text" id="b2bCompany" required>
+
+    <label>Product</label>
+    <input type="text" id="b2bProduct" required>
+
+    <label>Quantity</label>
+    <input type="number" id="b2bQuantity" required>
+
+    <!-- Shopify only allows one contact[body] field — so we merge all extra info into this -->
+    <textarea name="contact[body]" id="b2bMessage" style="display:none;"></textarea>
+
+    <button type="submit">Submit</button>
+    <p id="b2b-thankyou">Thank you for reaching out. We will get back to you real soon!</p>
+  </form>
+
+  <button onclick="closeB2BPopup()">Close</button>
+</div>
+
+<script>
+  function closeB2BPopup() {
+    document.getElementById("b2b-popup").style.display = "none";
+    document.getElementById("b2b-overlay").style.display = "none";
+    document.getElementById("b2b-form").reset();
+    document.getElementById("b2b-thankyou").style.display = "none";
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("click", function (e) {
+    const link = e.target.closest('a[href="#b2b-popup"]');
+    if (link) {
+      e.preventDefault();
+      document.getElementById("b2b-popup").style.display = "block";
+      document.getElementById("b2b-overlay").style.display = "block";
+    }
+  });
+    // Merge form values into one message before submission
+    document.getElementById("b2b-form").addEventListener("submit", function () {
+      const phone = document.getElementById("b2bPhone").value;
+      const country = document.getElementById("b2bCountry").value;
+      const company = document.getElementById("b2bCompany").value;
+      const product = document.getElementById("b2bProduct").value;
+      const quantity = document.getElementById("b2bQuantity").value;
+
+      const fullMessage =
+        "Phone Number: " + phone + "\n" +
+        "Country: " + country + "\n" +
+        "Company: " + company + "\n" +
+        "Product: " + product + "\n" +
+        "Quantity: " + quantity;
+
+      document.getElementById("b2bMessage").value = fullMessage;
+    });
+  });
+</script>
+
+  </body>
+</html>

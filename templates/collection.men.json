@@ -1,0 +1,205 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "layout": "plain",
+        "show_description": false,
+        "collection_title_size": "h4",
+        "content_position": "place-self-center",
+        "background_color_scheme": "",
+        "image": "shopify://shop_images/Untitled_design_1_b45f9227-ad29-4969-bf07-3d106540138e.png",
+        "image_size": "auto",
+        "quick_navigation_menu": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "products_per_page": 36,
+        "products_per_row_mobile": 2,
+        "products_per_row_desktop": 4,
+        "show_product_card_size_selector": true,
+        "quick_links_menu": "",
+        "filter_layout": "drawer",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false,
+        "swatch_selector_size": "sm"
+      }
+    },
+    "rich_text_Ac8FnC": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_7Qbp8r": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_pxNgU3": {
+          "type": "heading",
+          "settings": {
+            "text": "MEN",
+            "heading_tag": "h1",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_Jgw6bA": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7Qbp8r",
+        "heading_pxNgU3",
+        "richtext_Jgw6bA"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "center"
+      }
+    },
+    "featured_links_TbegeJ": {
+      "type": "featured-links",
+      "blocks": {
+        "link_zr863w": {
+          "type": "link",
+          "settings": {
+            "title": "EXTENDERS",
+            "content": "",
+            "url": "shopify://collections/shirt-collar-extender-full-collection",
+            "heading_tag": "h4",
+            "background_hover": "",
+            "text_color_hover": ""
+          }
+        },
+        "link_ba7A7C": {
+          "type": "link",
+          "settings": {
+            "title": "BOTTIGLIA TIES",
+            "content": "",
+            "url": "shopify://collections/eco-ties-collection-sustainable-sophistication",
+            "heading_tag": "h4",
+            "background_hover": "",
+            "text_color_hover": ""
+          }
+        },
+        "link_8qb7Tc": {
+          "type": "link",
+          "settings": {
+            "title": "SIGNATURE TIES",
+            "content": "",
+            "url": "shopify://collections/ties-handmade-silk-italy",
+            "heading_tag": "h4",
+            "background_hover": "",
+            "text_color_hover": ""
+          }
+        },
+        "link_AVzpGd": {
+          "type": "link",
+          "disabled": true,
+          "settings": {
+            "title": "Antibacterial Silk Ties",
+            "content": "",
+            "url": "shopify://collections/antibacterial-ties",
+            "heading_tag": "h4",
+            "background_hover": "",
+            "text_color_hover": ""
+          }
+        },
+        "link_Y9MTdr": {
+          "type": "link",
+          "settings": {
+            "title": "BOW TIES",
+            "content": "",
+            "url": "shopify://collections/bow-ties",
+            "heading_tag": "h4",
+            "background_hover": "",
+            "text_color_hover": ""
+          }
+        },
+        "link_nA7Ptb": {
+          "type": "link",
+          "settings": {
+            "title": "POCKET SQUARES",
+            "content": "",
+            "url": "shopify://collections/silk-hand-made-pocket-squares",
+            "heading_tag": "h4",
+            "background_hover": "",
+            "text_color_hover": ""
+          }
+        },
+        "link_dnTT7e": {
+          "type": "link",
+          "settings": {
+            "title": "SCARVES",
+            "content": "",
+            "url": "shopify://collections/scarves",
+            "heading_tag": "h4",
+            "background_hover": "",
+            "text_color_hover": ""
+          }
+        },
+        "link_kQFEpN": {
+          "type": "link",
+          "settings": {
+            "title": "CUFFLINKS",
+            "content": "",
+            "url": "shopify://collections/cufflinks-hight-quality-italy",
+            "heading_tag": "h4",
+            "background_hover": "",
+            "text_color_hover": ""
+          }
+        }
+      },
+      "block_order": [
+        "link_zr863w",
+        "link_ba7A7C",
+        "link_8qb7Tc",
+        "link_AVzpGd",
+        "link_Y9MTdr",
+        "link_nA7Ptb",
+        "link_dnTT7e",
+        "link_kQFEpN"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "title": "",
+        "layout": "reveal",
+        "show_dividers": true,
+        "change_colors_on_hover": false
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "rich_text_Ac8FnC",
+    "featured_links_TbegeJ"
+  ]
+}

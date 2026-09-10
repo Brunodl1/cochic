@@ -1,0 +1,792 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "content_width": "md"
+      }
+    },
+    "hot_spots_U3rUYi": {
+      "type": "hot-spots",
+      "blocks": {
+        "placeable_content_grfKKa": {
+          "type": "_placeable-content",
+          "settings": {
+            "position": "start",
+            "max_width": "sm"
+          },
+          "blocks": {}
+        },
+        "hot_spot_content_item_FiPpKD": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "center",
+            "desktop_horizontal_position": 18,
+            "desktop_vertical_position": 30,
+            "mobile_horizontal_position": 21,
+            "mobile_vertical_position": 29,
+            "image": "shopify://shop_images/eco_collection_12_96a17293-2d06-4579-b76c-b0df0f222d31.png",
+            "round_image": true,
+            "title": "egg shell extenders",
+            "content": "<p><a href=\"/products/upcycled-shirt-collar-extender-egg-shell-natural-color\" title=\"SHIRT COLLAR EXTENDER EGG SHELL UPCYCLED (3 PCS)\">shop now</a></p>"
+          },
+          "blocks": {}
+        },
+        "hot_spot_content_item_ryUgfd": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "center",
+            "desktop_horizontal_position": 44,
+            "desktop_vertical_position": 30,
+            "mobile_horizontal_position": 47,
+            "mobile_vertical_position": 29,
+            "image": "shopify://shop_images/Screen_Shot_2025-05-30_at_5.08.54_PM.png",
+            "round_image": true,
+            "title": "mother of pearl extenders",
+            "content": "<p><a href=\"/products/cufflinks-collar-extenders-pack\" title=\"THE PRESTIGE GIFT SET- CUFFLINK AND SHIRT COLLAR EXTENDERS (4 PCS)\">shop now</a></p>"
+          },
+          "blocks": {}
+        },
+        "hot_spot_content_item_4gtmCY": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "center",
+            "desktop_horizontal_position": 69,
+            "desktop_vertical_position": 30,
+            "mobile_horizontal_position": 73,
+            "mobile_vertical_position": 29,
+            "image": "shopify://shop_images/Screen_Shot_2025-06-02_at_12.42.50_PM.png",
+            "round_image": true,
+            "title": "rice husk extenders",
+            "content": "<p><a href=\"/products/upcycled-shirt-collar-extender-rice-husk-natural-color\" title=\"SHIRT COLLAR EXTENDER RICE HUSK UPCYCLED (3 PCS)\">shop now</a></p>"
+          },
+          "blocks": {}
+        },
+        "hot_spot_content_item_AKfAbU": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "center",
+            "desktop_horizontal_position": 94,
+            "desktop_vertical_position": 30,
+            "mobile_horizontal_position": 95,
+            "mobile_vertical_position": 29,
+            "image": "shopify://shop_images/Screen_Shot_2025-06-02_at_12.44.56_PM.png",
+            "round_image": true,
+            "title": "classic extenders",
+            "content": "<p><a href=\"/collections/classic-extenders\" title=\"CLASSIC EXTENDERS\">shop now</a></p>"
+          },
+          "blocks": {}
+        },
+        "hot_spot_content_item_HUyqMG": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "center",
+            "desktop_horizontal_position": 18,
+            "desktop_vertical_position": 59,
+            "mobile_horizontal_position": 21,
+            "mobile_vertical_position": 58,
+            "image": "shopify://shop_images/Screen_Shot_2025-06-02_at_12.46.18_PM.png",
+            "round_image": true,
+            "title": "upcycled plastic extenders",
+            "content": "<p><a href=\"/products/upcycled-shirt-collar-extender-recycled-bottles\" title=\"SHIRT COLLAR EXTENDER - UPCYCLED PLASTIC (3 PCS)\">shop now</a></p>"
+          },
+          "blocks": {}
+        },
+        "hot_spot_content_item_pph9Vw": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "center",
+            "desktop_horizontal_position": 43,
+            "desktop_vertical_position": 59,
+            "mobile_horizontal_position": 46,
+            "mobile_vertical_position": 58,
+            "image": "shopify://shop_images/Screen_Shot_2025-06-02_at_12.50.45_PM.png",
+            "round_image": true,
+            "title": "coffee ground extenders",
+            "content": "<p><a href=\"/products/upcycled-shirt-collar-extender-coffee-ground-natural-color\" title=\"COLLAR EXTENDER COFFEE GROUNDS UPCYCLED (3 PCS)\">shop now</a></p>"
+          },
+          "blocks": {}
+        },
+        "hot_spot_content_item_mKbna6": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "center",
+            "desktop_horizontal_position": 69,
+            "desktop_vertical_position": 59,
+            "mobile_horizontal_position": 72,
+            "mobile_vertical_position": 58,
+            "image": "shopify://shop_images/Screen_Shot_2025-05-30_at_5.08.54_PM.png",
+            "round_image": true,
+            "title": "mother of pearl extenders",
+            "content": "<p><a href=\"/products/deluxe-collar-extenders-white-grey\" title=\"THE ROYAL DELUXE SHIRT COLLAR EXTENDER SET (4 PCS)\">shop now</a></p>"
+          },
+          "blocks": {}
+        },
+        "hot_spot_content_item_Kw7HcK": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "center",
+            "desktop_horizontal_position": 94,
+            "desktop_vertical_position": 59,
+            "mobile_horizontal_position": 95,
+            "mobile_vertical_position": 58,
+            "image": "shopify://shop_images/Screen_Shot_2025-06-02_at_12.53.27_PM.png",
+            "round_image": true,
+            "title": "coconut fiber extenders",
+            "content": "<p><a href=\"/products/upcycled-shirt-collar-extender-coconut-fiber\" title=\"SHIRT COLLAR EXTENDER COCONUT FIBER UPCYCLED (3 PCS)\">shop now</a></p>"
+          },
+          "blocks": {}
+        },
+        "hot_spot_content_item_X3YHKn": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "center",
+            "desktop_horizontal_position": 18,
+            "desktop_vertical_position": 87,
+            "mobile_horizontal_position": 21,
+            "mobile_vertical_position": 87,
+            "image": "shopify://shop_images/Screen_Shot_2025-06-02_at_12.54.47_PM.png",
+            "round_image": true,
+            "title": "rice straw extenders",
+            "content": "<p><a href=\"/products/upcycled-shirt-collar-extender-rice-straw-natural-color\" title=\"SHIRT COLLAR EXTENDER RICE STRAW UPCYCLED(3 PCS)\">shop now</a></p>"
+          },
+          "blocks": {}
+        },
+        "hot_spot_content_item_QRk8yU": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "center",
+            "desktop_horizontal_position": 43,
+            "desktop_vertical_position": 87,
+            "mobile_horizontal_position": 45,
+            "mobile_vertical_position": 87,
+            "image": "shopify://shop_images/Screen_Shot_2025-06-02_at_12.56.09_PM.png",
+            "round_image": true,
+            "title": "upcycled plastic extenders",
+            "content": "<p><a href=\"/products/shirt-collar-extender-recycled-plastic\" title=\"SHIRT COLLAR EXTENDER - UPCYCLED PLASTIC (2 PCS)\">shop now</a></p>"
+          },
+          "blocks": {}
+        },
+        "hot_spot_content_item_B6hx7m": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "center",
+            "desktop_horizontal_position": 69,
+            "desktop_vertical_position": 87,
+            "mobile_horizontal_position": 72,
+            "mobile_vertical_position": 87,
+            "image": "shopify://shop_images/Screen_Shot_2025-06-02_at_12.44.56_PM.png",
+            "round_image": true,
+            "title": "classic extenders",
+            "content": "<p><a href=\"/collections/classic-extenders\" title=\"CLASSIC EXTENDERS\">shop now</a></p>"
+          },
+          "blocks": {}
+        },
+        "hot_spot_content_item_t9qwrb": {
+          "type": "_hot-spot-content-item",
+          "settings": {
+            "text_alignment": "center",
+            "desktop_horizontal_position": 94,
+            "desktop_vertical_position": 87,
+            "mobile_horizontal_position": 95,
+            "mobile_vertical_position": 87,
+            "image": "shopify://shop_images/Screen_Shot_2025-06-02_at_12.58.43_PM.png",
+            "round_image": true,
+            "title": "upcycled plastic extenders",
+            "content": "<p><a href=\"/products/upcycled-shirt-collar-extender-recycled-bottles\" title=\"SHIRT COLLAR EXTENDER - UPCYCLED PLASTIC (3 PCS)\">shop now</a></p>"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "placeable_content_grfKKa",
+        "hot_spot_content_item_FiPpKD",
+        "hot_spot_content_item_ryUgfd",
+        "hot_spot_content_item_4gtmCY",
+        "hot_spot_content_item_AKfAbU",
+        "hot_spot_content_item_HUyqMG",
+        "hot_spot_content_item_pph9Vw",
+        "hot_spot_content_item_mKbna6",
+        "hot_spot_content_item_Kw7HcK",
+        "hot_spot_content_item_X3YHKn",
+        "hot_spot_content_item_QRk8yU",
+        "hot_spot_content_item_B6hx7m",
+        "hot_spot_content_item_t9qwrb"
+      ],
+      "name": "t:sections.hot_spots.name",
+      "settings": {
+        "color_scheme": "",
+        "image": "shopify://shop_images/draft_8_e5febf51-d5d2-4363-b7c4-50da8267eedf.png",
+        "mobile_image": "shopify://shop_images/draft_8_e5febf51-d5d2-4363-b7c4-50da8267eedf.png",
+        "hot_spot_background": "#ffffff",
+        "hot_spot_color": "#000000",
+        "background_text": "",
+        "background_text_size": "display-l",
+        "lower_scrolling_text_layer": false,
+        "show_scrolling_title": false
+      }
+    },
+    "rich_text_xmqGTy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jDrdpW": {
+          "type": "heading",
+          "settings": {
+            "text": "Choice of materials:",
+            "heading_tag": "h5",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "heading_hzAx8Q": {
+          "type": "heading",
+          "settings": {
+            "text": "Why <em>Non-Metal</em>?",
+            "heading_tag": "h2",
+            "indent": "none",
+            "highlight_effect": "default",
+            "highlight_accent_color": "",
+            "highlight_text_color": ""
+          }
+        },
+        "richtext_hhddTE": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Our collar extenders are crafted from high-quality, non-metal materials to prioritize comfort, safety, and versatility. Unlike metal alternatives that can cause skin irritation, allergies, or snag delicate fabrics, our non-metal design is hypoallergenic and lightweight. It ensures a smooth, seamless look under dress shirts while offering the flexibility to move with you. </p>"
+          }
+        },
+        "button_TNz8bk": {
+          "type": "button",
+          "settings": {
+            "text": "shop all extenders",
+            "url": "https://cochic.com/collections/shirt-collar-extender-full-collection#product-list-template--24393909174555__featured_product_list_C4JyLg",
+            "open_in_new_tab": false,
+            "style": "solid",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_jDrdpW",
+        "heading_hzAx8Q",
+        "richtext_hhddTE",
+        "button_TNz8bk"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "content_width": "md",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_grid_CFEne9": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_hjFX44": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "right",
+            "desktop_row_start": 2,
+            "desktop_column_start": 10,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": -2,
+            "desktop_vertical_adjustment": -1,
+            "mobile_row_start": 2,
+            "mobile_column_start": 4,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": -3,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_HcnX9c": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Washable and Worry-Free",
+                "show_text_vertically": false,
+                "font_size_desktop": 6.5,
+                "font_size_mobile": 9,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_HcnX9c"
+          ]
+        },
+        "dynamic_grid_item_C83HLR": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 5,
+            "desktop_column_start": 12,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": -2,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 8,
+            "mobile_column_start": 1,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_icahUx": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Forgot to take off your extender before laundry day? No problem! Our recycled resin buttons are <strong>fully washable</strong>, so your extender will come out looking as good as new.<br/><br/>Unlike metal components that can rust over time, our extenders are designed to be <strong>durable</strong>.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_icahUx"
+          ]
+        },
+        "dynamic_grid_item_HJYEBm": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 1,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": -5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_HpFjGz": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/draft_1_copy_4f8a45a7-a72b-4108-aede-98efcbfd5997.png",
+                "mobile_image": "shopify://shop_images/draft_1_bf62ed60-b2fb-4552-8f97-6b4b739bc5a6.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_HpFjGz"
+          ]
+        },
+        "dynamic_grid_item_MNHTK8": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 1,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 11,
+            "mobile_column_start": 1,
+            "mobile_column_end": 3,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_DXhWaN": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/draft_1_1c1aab43-2824-400c-9085-8e8345777bc8.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_DXhWaN"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_hjFX44",
+        "dynamic_grid_item_C83HLR",
+        "dynamic_grid_item_HJYEBm",
+        "dynamic_grid_item_MNHTK8"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": false,
+        "add_horizontal_spacing": false,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "dynamic_grid_RKHMm6": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_g8gNz8": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 1,
+            "desktop_column_end": 9,
+            "desktop_horizontal_adjustment": 2,
+            "desktop_vertical_adjustment": -1,
+            "mobile_row_start": 2,
+            "mobile_column_start": 1,
+            "mobile_column_end": 6,
+            "mobile_horizontal_adjustment": 4.5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_Th4DD3": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Safe, Comfortable, and Long-Lasting",
+                "show_text_vertically": false,
+                "font_size_desktop": 6.5,
+                "font_size_mobile": 9,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_Th4DD3"
+          ]
+        },
+        "dynamic_grid_item_CVcWaz": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 5,
+            "desktop_column_start": 1,
+            "desktop_column_end": 10,
+            "desktop_horizontal_adjustment": 2,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 4,
+            "mobile_column_start": 1,
+            "mobile_column_end": 4,
+            "mobile_horizontal_adjustment": 5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_heyHXY": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Metal springs can pinch your skin or snag facial hair, and they often lose elasticity after just a few uses.<br/><br/>Our elastic bands, on the other hand, offer a smooth, comfortable stretch — tested to hold up to <strong>9 lbs</strong> of tension — making them reliable for everyday wear without discomfort.</p><h3></h3>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_heyHXY"
+          ]
+        },
+        "dynamic_grid_item_xpD6bP": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 8,
+            "desktop_column_start": 1,
+            "desktop_column_end": 11,
+            "desktop_horizontal_adjustment": 2,
+            "desktop_vertical_adjustment": -1,
+            "mobile_row_start": 10,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 4.5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_rnbMhC": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "No More Rust Stains",
+                "show_text_vertically": false,
+                "font_size_desktop": 6.5,
+                "font_size_mobile": 9,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_rnbMhC"
+          ]
+        },
+        "dynamic_grid_item_EgBx6H": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 9,
+            "desktop_column_start": 1,
+            "desktop_column_end": 10,
+            "desktop_horizontal_adjustment": 2,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 11,
+            "mobile_column_start": 1,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_43QHwN": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>Metal extenders can leave permanent stains on light-colored shirts, especially after they start to rust. Our <strong>rust-free</strong> materials eliminate this risk, so your shirts stay clean and fresh, wear after wear.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_43QHwN"
+          ]
+        },
+        "dynamic_grid_item_bHEgAK": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 8,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 2,
+            "mobile_column_start": 2,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 5,
+            "mobile_vertical_adjustment": -5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_njepKA": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/Amazon_Image_-_C2_extenders_b84c82c6-1f26-4e3d-aafd-9b71e8f246b2.png",
+                "mobile_image": "shopify://shop_images/Amazon_Image_-_C2_extenders_6d812234-d79e-44d3-bebf-9014609f7562.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_njepKA"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_g8gNz8",
+        "dynamic_grid_item_CVcWaz",
+        "dynamic_grid_item_xpD6bP",
+        "dynamic_grid_item_EgBx6H",
+        "dynamic_grid_item_bHEgAK"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": false,
+        "add_horizontal_spacing": false,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "dynamic_grid_6jjVgf": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_fWWgEn": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "right",
+            "desktop_row_start": 2,
+            "desktop_column_start": 10,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 2,
+            "desktop_vertical_adjustment": -1,
+            "mobile_row_start": 2,
+            "mobile_column_start": 4,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": -0.5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_fKX46k": {
+              "type": "_dynamic-grid-heading",
+              "disabled": true,
+              "settings": {
+                "text": "Washable and Worry-Free",
+                "show_text_vertically": false,
+                "font_size_desktop": 6.5,
+                "font_size_mobile": 9,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_fKX46k"
+          ]
+        },
+        "dynamic_grid_item_AgLt6w": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 5,
+            "desktop_column_start": 12,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": -0.5,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 8,
+            "mobile_column_start": 1,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_mYQqeA": {
+              "type": "rich-text",
+              "disabled": true,
+              "settings": {
+                "text": "<p>Accidentally leave your extender on your shirt during laundry? No problem! Our recycled resin buttons are <strong>fully washable</strong>, so your extender will come out looking as good as new.<br/><br/>Unlike metal components that can rust over time, our extenders are designed to be <strong>durable</strong>.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_mYQqeA"
+          ]
+        },
+        "dynamic_grid_item_HthJ7g": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 2,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_imjwcb": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/draft_1_f68e878a-51f2-4e5e-8190-84623cfd87ce.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_imjwcb"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_fWWgEn",
+        "dynamic_grid_item_AgLt6w",
+        "dynamic_grid_item_HthJ7g"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": false,
+        "add_horizontal_spacing": false,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hot_spots_U3rUYi",
+    "rich_text_xmqGTy",
+    "dynamic_grid_CFEne9",
+    "dynamic_grid_RKHMm6",
+    "dynamic_grid_6jjVgf"
+  ]
+}

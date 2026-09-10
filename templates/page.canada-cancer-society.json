@@ -1,0 +1,763 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "dynamic_grid_dmcppP": {
+      "type": "dynamic-grid",
+      "blocks": {
+        "dynamic_grid_item_rKHc9j": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 2,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 2,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_8qUKCz": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Spreading Hope",
+                "show_text_vertically": false,
+                "font_size_desktop": 6,
+                "font_size_mobile": 10,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_8qUKCz"
+          ]
+        },
+        "dynamic_grid_item_ExNqFi": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 3,
+            "desktop_column_start": 1,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 2,
+            "mobile_row_start": 3,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 2.5,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_mFrxic": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "With",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 6,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_mFrxic"
+          ]
+        },
+        "dynamic_grid_item_4F9fGC": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 1,
+            "desktop_column_start": 8,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 5,
+            "desktop_vertical_adjustment": -5,
+            "mobile_row_start": 3,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_7Qf7fE": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/33.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_7Qf7fE"
+          ]
+        },
+        "dynamic_grid_item_jcaj3E": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 3,
+            "desktop_column_start": 3,
+            "desktop_column_end": 10,
+            "desktop_horizontal_adjustment": -2,
+            "desktop_vertical_adjustment": 2,
+            "mobile_row_start": 3,
+            "mobile_column_start": 2,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 2,
+            "mobile_vertical_adjustment": -1.5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_ytxkfx": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/32.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_ytxkfx"
+          ]
+        },
+        "dynamic_grid_item_zKqLnD": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 6,
+            "desktop_column_start": 1,
+            "desktop_column_end": 4,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 12,
+            "mobile_column_start": 2,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_xTTVAy": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/34.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_xTTVAy"
+          ]
+        },
+        "dynamic_grid_item_adTGqq": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 7,
+            "desktop_column_start": 1,
+            "desktop_column_end": 8,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 14,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_rJPe4m": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>At COCHIC, we believe fashion can do more than just make you look good, it can bring people together, spark conversations, and most importantly, make a meaningful impact. That’s why we partnered with the <strong>Canadian Cancer Society</strong> on a very special initiative: <strong>The Daffodil Collection</strong>.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_rJPe4m"
+          ]
+        },
+        "dynamic_grid_item_tGQHVX": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 10,
+            "desktop_column_start": 10,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 17,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_f7wGqE": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "<strong>100% of profit donated</strong> to breast cancer research",
+                "show_text_vertically": false,
+                "font_size_desktop": 4.5,
+                "font_size_mobile": 7.5,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            },
+            "rich_text_RdiV6Y": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>This collection was created to support those affected by breast cancer. We're proud to share that 100% of the profits from this collection go directly toward breast cancer research, helping to fund lifesaving advancements and bringing hope to those who need it most. At the heart of this collection is our <strong>patented Collar Extender, </strong>a small yet powerful accessory that allows people to feel comfortable and elegant in shirts, ties, or any snug-fitting clothing.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_f7wGqE",
+            "rich_text_RdiV6Y"
+          ]
+        },
+        "dynamic_grid_item_QbrWLK": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 10,
+            "desktop_column_start": 1,
+            "desktop_column_end": 9,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 23,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": -5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_VEpV9C": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/2eb3c718-44eb-4d25-8731-b27b5a39bb28_1800x1800_2944a4c0-4e0f-4976-9c33-d02ec6b61499.webp",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_VEpV9C"
+          ]
+        },
+        "dynamic_grid_item_jMEieK": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 13,
+            "desktop_column_start": 2,
+            "desktop_column_end": 15,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 27,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_Br3AqA": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/draft_2.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_Br3AqA"
+          ]
+        },
+        "dynamic_grid_item_B9yngg": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 19,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 30,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 2,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "dynamic_grid_heading_9rPNq9": {
+              "type": "_dynamic-grid-heading",
+              "settings": {
+                "text": "Daffodil Motifs",
+                "show_text_vertically": false,
+                "font_size_desktop": 5,
+                "font_size_mobile": 7.5,
+                "font_size_line_height": 1,
+                "html_tag": "p",
+                "indent": "none",
+                "highlight_effect": "default",
+                "highlight_accent_color": "",
+                "highlight_text_color": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "dynamic_grid_heading_9rPNq9"
+          ]
+        },
+        "dynamic_grid_item_C9FPhc": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 22,
+            "desktop_column_start": 4,
+            "desktop_column_end": 14,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 33,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": -4.5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_AX983L": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>For the Daffodil Collection, we added a thoughtful detail: <strong>a daffodil motif</strong>, the flower that symbolizes <strong>hope and new beginnings</strong>.</p><p>Why a daffodil? These bright yellow blooms are the first to blossom at the start of spring, welcoming a new chapter and celebrating life. The vivid yellow also adds a pop of color to your outfit,  an uplifting reminder that even in dark times, light and beauty can bloom.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_AX983L"
+          ]
+        },
+        "dynamic_grid_item_mwanWq": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "center",
+            "desktop_row_start": 26,
+            "desktop_column_start": 5,
+            "desktop_column_end": 12,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 39,
+            "mobile_column_start": 2,
+            "mobile_column_end": 7,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_CCcmXM": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/Screen_Shot_2025-04-03_at_5.07.31_PM.png",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_CCcmXM"
+          ]
+        },
+        "dynamic_grid_item_amf8bf": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 29,
+            "desktop_column_start": 10,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 41,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 4,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_kM6XCy": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>In October, we had the honor of sponsoring the <strong>Run for the Cure</strong>, a powerful event that brought together survivors, fighters, families, and supporters. For us, it was more than just a sponsorship, it was a chance to <strong>meet the community</strong> we stand behind. We handed out <strong>bandanas and collar extenders</strong> to those currently facing breast cancer and to those who have overcome it and now uplift others with their strength and wisdom.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_kM6XCy"
+          ]
+        },
+        "dynamic_grid_item_KtDypn": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 32,
+            "desktop_column_start": 10,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 3.5,
+            "mobile_row_start": 53,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 4,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_kjN4GL": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>To keep runners energized, we prepared sandwiches and drinks, making sure everyone felt supported both emotionally and physically. <strong>One moment stood out to us: </strong>a brave woman currently battling cancer visited our booth. She handed us a small bag of handmade woven fabric gifts she had prepared for other patients. She shared that her doctor had told her she was nearing the end of her life, and she simply wanted to spend her remaining time spreading kindness and supporting others still fighting. Her courage touched our hearts.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_kjN4GL"
+          ]
+        },
+        "dynamic_grid_item_Q8aJed": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 29,
+            "desktop_column_start": 1,
+            "desktop_column_end": 9,
+            "desktop_horizontal_adjustment": -0.5,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 46,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": -4,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_WgCe7A": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/9f8d6102-c0c6-47f5-8d5a-d97cf8e9d445_1_7797f5a2-6e95-4b29-9787-9f4db8837124.jpg",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_WgCe7A"
+          ]
+        },
+        "dynamic_grid_item_QMtB9q": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 38,
+            "desktop_column_start": 1,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 58,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_Wzf9HK": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>When people are wearing our bandanas, we  see happiness and joy, and that’s what drives us. Even if we bring someone a second of happiness, it makes all our work worth it.</p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_Wzf9HK"
+          ]
+        },
+        "dynamic_grid_item_c4BgtG": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 38,
+            "desktop_column_start": 10,
+            "desktop_column_end": 16,
+            "desktop_horizontal_adjustment": 1,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 60,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 1.5,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "image_with_caption_fE9YAB": {
+              "type": "image-with-caption",
+              "settings": {
+                "image": "shopify://shop_images/0d3e80b2-013b-4eed-aec2-83a5cd170366_d07b9521-36c2-41ee-be25-991eeeb977a1.jpg",
+                "caption": ""
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "image_with_caption_fE9YAB"
+          ]
+        },
+        "dynamic_grid_item_gweRAG": {
+          "type": "_dynamic-grid-item",
+          "settings": {
+            "visibility": "both",
+            "text_alignment": "left",
+            "desktop_row_start": 40,
+            "desktop_column_start": 1,
+            "desktop_column_end": 9,
+            "desktop_horizontal_adjustment": 0,
+            "desktop_vertical_adjustment": 0,
+            "mobile_row_start": 70,
+            "mobile_column_start": 1,
+            "mobile_column_end": 8,
+            "mobile_horizontal_adjustment": 0,
+            "mobile_vertical_adjustment": 0,
+            "parallax_speed": 0,
+            "parallax_direction": "vertical"
+          },
+          "blocks": {
+            "rich_text_jHnyn6": {
+              "type": "rich-text",
+              "settings": {
+                "text": "<p>We invite you to explore the <strong>Daffodil Collection</strong>. By doing so, you're not only adding comfort and elegance to your daily life, you're also supporting vital research and joining a community that believes in <strong>hope, strength, and connection</strong>. These pieces also make <strong>perfect gifts</strong> for anyone who values style with impact and giving back.</p><p>Together, let’s keep blooming, for ourselves, for each other, and for a brighter future.</p><p><strong>Explore the collection and make a difference.</strong></p>",
+                "content_width": "sm"
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "rich_text_jHnyn6"
+          ]
+        }
+      },
+      "block_order": [
+        "dynamic_grid_item_rKHc9j",
+        "dynamic_grid_item_ExNqFi",
+        "dynamic_grid_item_4F9fGC",
+        "dynamic_grid_item_jcaj3E",
+        "dynamic_grid_item_zKqLnD",
+        "dynamic_grid_item_adTGqq",
+        "dynamic_grid_item_tGQHVX",
+        "dynamic_grid_item_QbrWLK",
+        "dynamic_grid_item_jMEieK",
+        "dynamic_grid_item_B9yngg",
+        "dynamic_grid_item_C9FPhc",
+        "dynamic_grid_item_mwanWq",
+        "dynamic_grid_item_amf8bf",
+        "dynamic_grid_item_KtDypn",
+        "dynamic_grid_item_Q8aJed",
+        "dynamic_grid_item_QMtB9q",
+        "dynamic_grid_item_c4BgtG",
+        "dynamic_grid_item_gweRAG"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "show_background_image_parallax": false,
+        "add_vertical_spacing": false,
+        "add_horizontal_spacing": true,
+        "gap": 16,
+        "mobile_gap": 10,
+        "overlay_color": "#000000",
+        "overlay_opacity": 20
+      }
+    },
+    "media_blocks_hVhYH9": {
+      "type": "media-blocks",
+      "blocks": {
+        "image_with_text_8N3BcY": {
+          "type": "image_with_text",
+          "settings": {
+            "change_color_scheme_on_hover": false,
+            "color_scheme": "",
+            "color_scheme_hover": "",
+            "image": "shopify://shop_images/Screenshot_2026-01-20_at_12.33.16_PM.png",
+            "icon": "none",
+            "icon_width": 32,
+            "mobile_icon_width": 24,
+            "icon_position": "top_left",
+            "subheading": "",
+            "subheading_position": "middle_center",
+            "title": "",
+            "heading_tag": "h4",
+            "heading_position": "middle_center",
+            "scrolling_title": false,
+            "scrolling_title_separator": "none",
+            "show_text_vertically": false,
+            "text": "",
+            "text_position": "middle_center",
+            "button_style": "solid",
+            "link_url": "",
+            "link_text": "",
+            "link_position": "middle_center"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_8N3BcY"
+      ],
+      "name": "t:sections.media_blocks.name",
+      "settings": {
+        "color_scheme": "",
+        "allow_transparent_header": true,
+        "subheading": "",
+        "title": "A Warm Thank You From Canadian Cancer Society",
+        "content": "",
+        "heading_tag": "h4",
+        "text_alignment": "left",
+        "scrolling_title": false,
+        "scrolling_title_separator": "circle",
+        "stack_on_mobile": true,
+        "add_horizontal_spacing": true,
+        "add_border": false,
+        "column_spacing": "sm",
+        "items_per_row": 2,
+        "block_size": "auto"
+      }
+    },
+    "featured_collections_Q8HgjR": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_GbETkz": {
+          "type": "collection",
+          "settings": {
+            "collection": "canadian-cancer-society-daffodil-extenders",
+            "products_count": 3,
+            "title": "",
+            "content": "",
+            "link": "{{ block.settings.collection.url }}"
+          }
+        }
+      },
+      "block_order": [
+        "collection_GbETkz"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "stack_products_mobile": true,
+        "stack_products_desktop": true,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "tabs_alignment": "start",
+        "tabs_icon": "arrow",
+        "show_view_all_button": true,
+        "show_scrolling_bar": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "content_width": "md"
+      }
+    }
+  },
+  "order": [
+    "dynamic_grid_dmcppP",
+    "media_blocks_hVhYH9",
+    "featured_collections_Q8HgjR",
+    "main"
+  ]
+}

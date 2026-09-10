@@ -1,0 +1,67 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "collection-card": {
+          "type": "collection-card",
+          "static": true,
+          "settings": {
+            "color_scheme": "scheme-7",
+            "collection": "{{ closest.collection }}",
+            "image": "{{ closest.collection.image }}",
+            "title": "{{ closest.collection.title }}",
+            "heading_tag": "h4",
+            "button_text": "",
+            "overlay_color": "#666463",
+            "overlay_opacity": 20
+          },
+          "blocks": {}
+        }
+      },
+      "settings": {
+        "color_scheme": "",
+        "collections": [
+          "men",
+          "best-sellers",
+          "women-collection",
+          "cochic-selection",
+          "classic-extenders",
+          "pliio-collection",
+          "c2-collection",
+          "ties-handmade-silk-italy",
+          "canadian-cancer-society-daffodil-extenders",
+          "upcycled-collar-extenders",
+          "waist-extenders",
+          "eco-ties-collection-sustainable-sophistication",
+          "pashmina",
+          "foulard",
+          "silk-hand-made-pocket-squares",
+          "bow-ties",
+          "socks-1",
+          "scarves",
+          "special-edition-extenders",
+          "shop-sets",
+          "collar-stays"
+        ],
+        "items_per_row": 3,
+        "stack_on_mobile": true,
+        "add_horizontal_spacing": true,
+        "column_spacing": "md",
+        "image_size": "sm"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
