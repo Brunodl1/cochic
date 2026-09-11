@@ -514,5 +514,12 @@
       "banner_content": "The access to this site is denied because you are under {{ age }} years old.",
       "submit": "Enter"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "alternative_payment_method_banner": {
+        "or": "⭐⭐⭐⭐⭐  +1M Happy Customers"
+      }
+    }
   }
 }
