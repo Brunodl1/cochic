@@ -131,6 +131,8 @@
         ],
         "image": "shopify://shop_images/Amazon_Image_-_7_Medium_PLIIO_0d22cbce-cd0d-444f-9acf-5d475fba7dea.png",
         "mobile_image": "shopify://shop_images/Amazon_Image_-_7_Medium_PLIIO.png",
+        "image_fr": "shopify://shop_images/Amazon_Image_-_7_Medium_PLIIO_3_copy_be3e1ff2-fcde-49d4-afe5-0d5c887414ac-FR.png",
+        "mobile_image_fr": "shopify://shop_images/Untitled_design_5_copy-fr.png",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "desktop_product_layout": "grid",

@@ -28,9 +28,26 @@
       {%- endcomment -%}
       <div class="products-with-image__image-wrapper @container/content-box">
         <div class="content-box min-h-auto md:min-h-screen">
-          {%- if section.settings.image != blank -%}
+          {%- liquid
+            assign section_image = section.settings.image
+            assign section_mobile_image = section.settings.mobile_image
+
+            assign language_code = request.locale.iso_code | split: '-' | first
+
+            if language_code == 'fr'
+              if section.settings.image_fr != blank
+                assign section_image = section.settings.image_fr
+              endif
+
+              if section.settings.mobile_image_fr != blank
+                assign section_mobile_image = section.settings.mobile_image_fr
+              endif
+            endif
+          -%}
+
+          {%- if section_image != blank -%}
             <div class="content-box__background-media with-overlay" style="--overlay: {{ section.settings.overlay_color.rgb }} / {{ section.settings.overlay_opacity | divided_by: 100.0 }}">
-              {%- render 'media' with section.settings.image, mobile_media: section.settings.mobile_image, sizes: '(max-width: 699px) 100vw, 50vw' -%}
+              {%- render 'media' with section_image, mobile_media: section_mobile_image, sizes: '(max-width: 699px) 100vw, 50vw' -%}
             </div>
           {%- endif -%}
 
@@ -296,6 +313,18 @@
       "id": "mobile_image",
       "label": "t:global.image.mobile_image",
       "info": "t:sections.products_with_image.mobile_image_size_recommendation"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_fr",
+      "label": "Image (French)",
+      "info": "Shown when the store language is French. Falls back to the image above when empty."
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image_fr",
+      "label": "Mobile image (French)",
+      "info": "Shown when the store language is French. Falls back to the mobile image above when empty."
     },
     {
       "type": "color",
