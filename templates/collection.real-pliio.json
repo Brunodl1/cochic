@@ -56,6 +56,8 @@
       "settings": {
         "color_scheme": "scheme-1",
         "products": [
+          "cochic-pliio-8pcs-travel-set",
+          "cochic-pliio-7pcs-trying-set-2-small-2-medium-2-large-1-box-filers-foldable-clothes-organizer-durable-tshirt-folder",
           "set-of-2-pliio-boxes",
           "7-pliio-large-filers",
           "7-pliio-medium-filers",
@@ -64,6 +66,8 @@
         ],
         "image": "shopify://shop_images/Amazon_Image_-_7_Medium_PLIIO_3_copy_be3e1ff2-fcde-49d4-afe5-0d5c887414ac.png",
         "mobile_image": "shopify://shop_images/Untitled_design_5_copy.png",
+        "image_fr": "shopify://shop_images/Amazon_Image_-_7_Medium_PLIIO_3_copy_be3e1ff2-fcde-49d4-afe5-0d5c887414ac-FR.png",
+        "mobile_image_fr": "shopify://shop_images/Untitled_design_5_copy-fr.png",
         "overlay_color": "#000000",
         "overlay_opacity": 0,
         "desktop_product_layout": "grid",
